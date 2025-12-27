@@ -182,7 +182,7 @@ async function scrape() {
 
     let currentPage = startPage;
     let hasMore = true;
-    const CONCURRENCY = 10; // 10 parallel requests
+    const CONCURRENCY = 2; // Reduced for sustained throughput without constant 429s
 
     while (hasMore) {
         const batch = [];
@@ -197,8 +197,8 @@ async function scrape() {
             if (!res.success) {
                 console.error(`  ❌ Error Page ${(res as any).page}: ${(res as any).error}`);
                 if ((res as any).error.includes('429')) {
-                    console.log(`  🕒 Rate limit hit. Cooling down 10s...`);
-                    await new Promise(r => setTimeout(r, 10000));
+                    console.log(`  🕒 Rate limit hit. Cooling down 15s...`);
+                    await new Promise(r => setTimeout(r, 15000));
                 }
             } else {
                 if (!res.hasNext) hasMore = false;
@@ -207,8 +207,8 @@ async function scrape() {
         }
 
         currentPage += CONCURRENCY;
-        // Small delay to allow DB to breathe
-        await new Promise(r => setTimeout(r, 200));
+        // Moderate delay
+        await new Promise(r => setTimeout(r, 1500));
     }
 
     console.log('\n💎 BRUTE FORCE ARCHIVE COMPLETE.');
