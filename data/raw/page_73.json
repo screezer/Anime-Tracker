@@ -1,0 +1,3594 @@
+[
+  {
+    "id": 4398,
+    "idMal": 4398,
+    "title": {
+      "romaji": "Kuro Nyago",
+      "english": null,
+      "native": "黒ニャゴ"
+    },
+    "description": "A short movie from 1929 about four children who dream of having a pet cat. Their wishes are answered when they encounter a black cat who proceeds to sing them a song about how he and his tabby brother are descended from tigers. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4398.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4398.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4398.jpg"
+    },
+    "startDate": {
+      "year": 1929,
+      "month": 1,
+      "day": 16
+    },
+    "endDate": {
+      "year": 1929,
+      "month": 1,
+      "day": 16
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 3,
+    "genres": [
+      "Fantasy"
+    ],
+    "averageScore": 45,
+    "popularity": 1037,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4398",
+    "format": "MOVIE",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4399,
+    "idMal": 4399,
+    "title": {
+      "romaji": "Honoo no Haramase Tenkousei",
+      "english": null,
+      "native": "炎の孕ませ転校生"
+    },
+    "description": "The main character, Tatsuya Tagami, has an ambition of World Conquest, and the first step of his plan is to make every female classmate pregnant. Unfortunately, his dream is rather impossible in his all-boys school. Hence, he transfers himself to the newly reorganized Hakuka Co-Ed Academy, which was previously an all-girls school.\n<br><br>\n(Source: Anime News Network)\n<br>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4399.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4399.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4399.jpg"
+    },
+    "startDate": {
+      "year": 2006,
+      "month": 10,
+      "day": 27
+    },
+    "endDate": {
+      "year": 2007,
+      "month": 7,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 3,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 59,
+    "popularity": 1905,
+    "favourites": 30,
+    "studios": {
+      "nodes": [
+        {
+          "name": "T-REX"
+        }
+      ]
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4399",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2006,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 21148,
+            "title": {
+              "romaji": "Honoo no Haramase Paidol My★Star Gakuen Z THE ANIMATION",
+              "english": "Honoo no Haramase Paidol My★Star Gakuen Z The Animation"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21148-16prRZrJG35X.png"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SPRING",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 21369,
+            "title": {
+              "romaji": "Honoo no Haramase Motto! Hatsuiku! Karada Sokutei 2 THE ANIMATION",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/21369-GrNczBOIxb5p.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "FALL",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "OTHER",
+          "node": {
+            "id": 98766,
+            "title": {
+              "romaji": "Honoo no Haramase Oppai ★ Ero Appli Gakuen THE ANIMATION",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx98766-028kwBLJKmCz.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SUMMER",
+            "seasonYear": 2017
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 6041,
+            "title": {
+              "romaji": "Honoo no Haramase Doukyuusei",
+              "english": "SEXUAL CONQUEST"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/6041.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2008
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4400,
+    "idMal": 4400,
+    "title": {
+      "romaji": "Inmu 2: Chijoku no Kaniku Matsuri",
+      "english": "Inmu 2: Flesh Dreams",
+      "native": "淫夢2～恥辱の果肉祭～"
+    },
+    "description": "Sometimes the things we fear most are what we truly want. Enter the world of INMU and come face to face with your darkest fears and your wildest dreams.<br><br>\nFirst Night<br>\nYouri is not sure she's ready to lose her virginity to her boyfriend. Frustrated, her boyfriend regularly visits a massage parlor in order to get off. Even stranger, the masseuse looks just like Youri. Somehow, Youri is turned on by this betrayal and ends up submitting to her darker side.<br><br>\nSecond Night<br>\nA voyeur spies on a sexy nurse in her apartment. His obsession walks the line between fantasy and reality as he's consumed with lust. His passion brings to life a mysterious being which possesses him. When he becomes one of her patients, the man and the being merge, unleashing a full-on assault on his object of desire.<br><br>\nThird Night<br>\nA man playing a fantasy card game discovers that he can enter the game world and take control of the women on the cards. He eventually pushes his luck by merging fantasy and reality and finds that he's reached the point of no return.<br><br>\nFourth Night<br>\nCaught between fantasy and reality, a young man is seduced by his stepmother and they share a sexual encounter. Once is not enough for this guy as he becomes the seducer. Now he wonders if it was all a dream, or if he's become the victim caught in his stepmother's web.<br><br>\n(Source: AnimeOnDVD)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4400-i5IQkZ6iOEZm.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4400-i5IQkZ6iOEZm.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4400-i5IQkZ6iOEZm.jpg"
+    },
+    "startDate": {
+      "year": 2001,
+      "month": 3,
+      "day": 23
+    },
+    "endDate": {
+      "year": 2001,
+      "month": 6,
+      "day": 22
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 45,
+    "popularity": 374,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4400",
+    "format": "OVA",
+    "season": "SPRING",
+    "seasonYear": 2001,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 4379,
+            "title": {
+              "romaji": "Inmu: Ikenie no Utage",
+              "english": "Inmu: Feast of Victims"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4379-NlRb4H7Jj6SN.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4406,
+    "idMal": 4406,
+    "title": {
+      "romaji": "Mazinger Z tai Ankoku Daishogun",
+      "english": null,
+      "native": "マジンガーＺ対暗黒大将軍"
+    },
+    "description": "Kouji and his friends have defeated Dr. Hell and are now enjoying a break, but suddenly a strange prophet appears and warns everyone of an oncoming danger, mechanical beasts never seen before start appearing all around the world wrecking havoc. Its up to Kouji and his Mazinger Z to stand up to this threat but it seems he is vastly outnumber and outmatched.<br><br>\nThis film served as an alternative link between the Mazinger Z TV series and the Great Mazinger TV series. It basically introduces Great Mazinger to the audience, as well as his enemies from the Mikene Empire.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4406.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4406.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4406.jpg"
+    },
+    "startDate": {
+      "year": 1974,
+      "month": 7,
+      "day": 25
+    },
+    "endDate": {
+      "year": 1974,
+      "month": 7,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 43,
+    "genres": [
+      "Action",
+      "Mecha"
+    ],
+    "averageScore": 62,
+    "popularity": 1076,
+    "favourites": 12,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4406",
+    "format": "MOVIE",
+    "season": "SUMMER",
+    "seasonYear": 1974,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 2253,
+            "title": {
+              "romaji": "Mazinger Z",
+              "english": "Mazinger Z"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2253-nS4Os86CPB5a.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 1972
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 2734,
+            "title": {
+              "romaji": "Mazinkaiser: Shitou! Ankoku Dai Shogun",
+              "english": "Mazinkaiser vs. Great General of Darkness"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/2734.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SUMMER",
+            "seasonYear": 2003
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 170754,
+            "title": {
+              "romaji": "Mazinger Z Tai: Transformer",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b170754-RHGcWkSC933c.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4411,
+    "idMal": 4411,
+    "title": {
+      "romaji": "Mirai Robo Daltanias",
+      "english": "Future Robot Daltanious",
+      "native": "未来ロボ ダルタニアス"
+    },
+    "description": "It is the year 1995. Earth has been conquered by an alien army from the Saar cluster known as the Akron. The cities of Earth have been destroyed, and the remaining survivors live in harsh shanty towns and villages. Kento, a war orphan, hides within a cave along with his companions in order to escape some bandits. In the cave, they find the secret base of Dr. Earl, who was an inhabitant of the planet Helios, a planet conquered by the Akron. Dr. Earl then fled to Earth, bringing with him the greatest achievement in Helian technology: the super robot Daltanius, whose power is increased when combined with the intelligent lion robot, Beralios. Dr. Earl entrusts the fight for Earth to Kenta, who happens to be a descendant from the long disappeared Helian royal line.<br><br>\n(Source Wikipedia.org)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4411.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4411.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4411.jpg"
+    },
+    "startDate": {
+      "year": 1979,
+      "month": 3,
+      "day": 21
+    },
+    "endDate": {
+      "year": 1980,
+      "month": 3,
+      "day": 5
+    },
+    "status": "FINISHED",
+    "episodes": 47,
+    "duration": 24,
+    "genres": [
+      "Comedy",
+      "Mecha"
+    ],
+    "averageScore": 65,
+    "popularity": 815,
+    "favourites": 17,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4411",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 1979,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 138644,
+            "title": {
+              "romaji": "God Bird",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx138644-8GrfV6B37QXQ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4415,
+    "idMal": 4415,
+    "title": {
+      "romaji": "World Destruction: Sekai Bokumetsu no Rokunin",
+      "english": "Sands of Destruction",
+      "native": "ワールド・デストラクション ～世界撲滅の六人～"
+    },
+    "description": "Spinoff based on the Nintendo DS RPG game by SEGA, released in Japan July, 2008. <br><br>\nIn a world where humans serve as livestock for the ruling beastman, and where sand fills the roles of water and fire. Kyrie is recruited by the \"World Destruction Committee\" to assist in putting an end to their world. Kyrie alone holds the power needed to do it. <br><br>\n(Source: AniDB)  ",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4415-b9mnurIKr8Xv.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4415-wZ9dnrUApHRw.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4415-wZ9dnrUApHRw.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4415-wZ9dnrUApHRw.png"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 7,
+      "day": 8
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 9,
+      "day": 30
+    },
+    "status": "FINISHED",
+    "episodes": 13,
+    "duration": 25,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "averageScore": 64,
+    "popularity": 7577,
+    "favourites": 39,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Production I.G"
+        }
+      ]
+    },
+    "source": "VIDEO_GAME",
+    "siteUrl": "https://anilist.co/anime/4415",
+    "format": "TV",
+    "season": "SUMMER",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 41408,
+            "title": {
+              "romaji": "World Destruction - Futari no Tenshi",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/11408.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4416,
+    "idMal": 4416,
+    "title": {
+      "romaji": "Yuusha-Ou GaoGaiGar FINAL Grand Glorious Gathering",
+      "english": "King of Braves GaoGaiGar Final Grand Glorious Gathering",
+      "native": "勇者王ガオガイガーFINAL Grand Glorious Gathering"
+    },
+    "description": "Following Gutsy Galaxy Guard's victory over the Zonder Empire and the 31 Primevals, a new threat makes their appearance on Earth. GGG - with Guy Shishio and the newly-constructed GaoFighGar - team up with their French counterpart Chasseur to battle the evil organization BioNet. Among Chasseur's ranks is Renais Cardiff Shishioh - a former BioNet cyborg with the relentless pursuit of destroying those who took away her humanity. But as GGG and Chasseur fight the BioNet, GGG's bases around the world are suddenly attacked, and the recently-discovered \"Q-Parts\" and the original Gao Machines are stolen by Mamoru Amami, who has been abducted and cloned by an even greater threat known as the \"Eleven Kings of Sol.\" Evicted from Earth by the United Nations, GGG must now travel to the far reaches of the galaxy to battle the Eleven Kings of Sol and save Mamoru before it's too late.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4416-URP6bsXXineZ.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4416-URP6bsXXineZ.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4416-URP6bsXXineZ.jpg"
+    },
+    "startDate": {
+      "year": 2005,
+      "month": 4,
+      "day": 11
+    },
+    "endDate": {
+      "year": 2005,
+      "month": 6,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 24,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ],
+    "averageScore": 73,
+    "popularity": 1528,
+    "favourites": 24,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4416",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 2005,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 890,
+            "title": {
+              "romaji": "Yuusha-Ou GaoGaiGar",
+              "english": "The King of Braves: GaoGaiGar"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx890-opmekyhFfZO9.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 1997
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 1382,
+            "title": {
+              "romaji": "Yuusha-Ou GaoGaiGar FINAL",
+              "english": "The King of Braves: GaoGaiGar Final"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1382-MRfbe0Tuegcr.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "WINTER",
+            "seasonYear": 2000
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 156024,
+            "title": {
+              "romaji": "Yuusha-Ou GaoGaiGar FINAL Project Z",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b156024-Y40RBej2vT5r.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4417,
+    "idMal": 4417,
+    "title": {
+      "romaji": "Hennako-chan",
+      "english": null,
+      "native": "へんな子ちゃん"
+    },
+    "description": "Hennako-chan is a black comedy series targeted at adult readers. The main character is an eccentric elementary school girl who has telekinetic powers that enable her to manipulate other people, animals, and even plants or objects by just staring at them. The series follows the helter-skelter daily lives of Hennako-chan and the people around her, including her family consisting of her very cracker-barrel parents, hot-to-trot elder sister, and a former stray dog, who are always thrown into frenzy by Hennako-chan's super-natural powers that expose their secrets.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4417.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4417.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4417.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 4,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 7,
+      "day": 3
+    },
+    "status": "FINISHED",
+    "episodes": 6,
+    "duration": 3,
+    "genres": [
+      "Comedy"
+    ],
+    "averageScore": null,
+    "popularity": 107,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4417",
+    "format": "ONA",
+    "season": "SPRING",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4418,
+    "idMal": 4418,
+    "title": {
+      "romaji": "Catman Series II",
+      "english": null,
+      "native": "キャットマン"
+    },
+    "description": "In a city filled with anthropomorphic cat-people, Catman lives free of rules and boundaries, doing everything he wants, which often collides with the other inhabitants of the city. Created entirely in flash, with no spoken dialog, Catman instead speaks in English and Japanese subtitles. The series is spread across three so-called 'seasons', with only the third having been aired.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4418.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4418.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4418.jpg"
+    },
+    "startDate": {
+      "year": 2002,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 2002,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 8,
+    "duration": 4,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "averageScore": 55,
+    "popularity": 593,
+    "favourites": 1,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4418",
+    "format": "ONA",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 4419,
+            "title": {
+              "romaji": "Catman",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4419.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 4383,
+            "title": {
+              "romaji": "Catman Series III",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4383.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "SPRING",
+            "seasonYear": 2008
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 7164,
+            "title": {
+              "romaji": "Catman Specials",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b7164-KgsWJOJLN6iJ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4419,
+    "idMal": 4419,
+    "title": {
+      "romaji": "Catman",
+      "english": null,
+      "native": "キャットマン"
+    },
+    "description": "In a city filled with anthropomorphic cat-people, Catman lives free of rules and boundaries, doing everything he wants, which often collides with the other inhabitants of the city. Catman dares to be bold: it&rsquo;s made in Flash, which is rarely seen nowadays; there are no spoken dialogue but instead is subbed in Japanese and English and has a original soundtrack made in purpose for the series.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4419.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4419.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4419.jpg"
+    },
+    "startDate": {
+      "year": 2002,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 2002,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 7,
+    "duration": 3,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "averageScore": 54,
+    "popularity": 1160,
+    "favourites": 9,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4419",
+    "format": "ONA",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 4418,
+            "title": {
+              "romaji": "Catman Series II",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4418.jpg"
+            },
+            "status": "FINISHED",
+            "format": "ONA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 7164,
+            "title": {
+              "romaji": "Catman Specials",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b7164-KgsWJOJLN6iJ.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4420,
+    "idMal": 4420,
+    "title": {
+      "romaji": "Nanchatte Vampiyan",
+      "english": null,
+      "native": "なんちゃってバンパイヤン"
+    },
+    "description": "A young boy ends up at a castle belonging to a vampire and his daughter.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4420-fBGjNmK6AZme.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4420-fBGjNmK6AZme.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4420-fBGjNmK6AZme.png"
+    },
+    "startDate": {
+      "year": 1999,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 1999,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 18,
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
+    "averageScore": 53,
+    "popularity": 459,
+    "favourites": 1,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Production I.G"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4420",
+    "format": "SPECIAL",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 3290,
+            "title": {
+              "romaji": "Vampiyan Kids",
+              "english": "Vampiyan Kids"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/3290.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2001
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4421,
+    "idMal": 4421,
+    "title": {
+      "romaji": "Moetan Specials",
+      "english": "Moetan Specials",
+      "native": "もえたん"
+    },
+    "description": "Moetan DVD-only episodes. <br><br>\n#6: \"The First Date\" <br>\n#13: \"The Supreme Ruler at the End of the Century! The Magical Girls' Combined Attack\" ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4421-MjK6aeYSLoim.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4421-MjK6aeYSLoim.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4421-MjK6aeYSLoim.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": 12,
+      "day": 21
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 3,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 24,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Mahou Shoujo",
+      "Mecha"
+    ],
+    "averageScore": 60,
+    "popularity": 1595,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/4421",
+    "format": "SPECIAL",
+    "season": "FALL",
+    "seasonYear": 2007,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 2367,
+            "title": {
+              "romaji": "Moetan",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2367-WG1xRU20RhOo.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SUMMER",
+            "seasonYear": 2007
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 44610,
+            "title": {
+              "romaji": "Moe-tan",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b44610-LR72HZ4p9GaN.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4427,
+    "idMal": 4427,
+    "title": {
+      "romaji": "Tatakae!! Ramenman",
+      "english": "Fight!! Ramenman",
+      "native": "闘将!!拉麺男"
+    },
+    "description": "Set in a land where several martial arts styles collide, including (but not limited to) Chinese Kung Fu, Japanese Karate, and South Korean Taekwondo. Yet amongst these Shaolin-trained fighters and men powerful enough to cut the face of a mountain, Victory Ramenman is said to be the strongest of them all. At a young age, he witnessed his father Somenman being murdered by members of the Cobra Gang (who are still running rampant to this day). Found and taken in by the wise old Chen Sou-Mei, Ramenman trains for 12 years under his master and learns the great Essential Battle Dragon (&#38360;&#40845;&#26997;&#24847;&#26360;, To Ryuu Gokui Sho) style of Choujin Martial arts. Now, with his young sidekick Shao-Mai, Ramenman travels the land seeking vengeance for his father, fighting several villains along the way.<br><br>\n(Source: Wikipedia)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4427-Kzqxt58GwIxJ.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4427-Kzqxt58GwIxJ.jpg"
+    },
+    "startDate": {
+      "year": 1988,
+      "month": 1,
+      "day": 10
+    },
+    "endDate": {
+      "year": 1988,
+      "month": 9,
+      "day": 11
+    },
+    "status": "FINISHED",
+    "episodes": 35,
+    "duration": 23,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "averageScore": 50,
+    "popularity": 629,
+    "favourites": 10,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4427",
+    "format": "TV",
+    "season": "WINTER",
+    "seasonYear": 1988,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 51599,
+            "title": {
+              "romaji": "Tatakae!! Ramenman",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx51599-PVGCdGN8lL8I.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 16728,
+            "title": {
+              "romaji": "Tatakae!! Ramenman (Movie)",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16728.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 1988
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 3272,
+            "title": {
+              "romaji": "Kinnikuman",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/3272.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 1983
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4437,
+    "idMal": 4437,
+    "title": {
+      "romaji": "NARUTO: Shippuuden - Kizuna",
+      "english": "Naruto Shippuden the Movie: Bonds",
+      "native": "劇場版 NARUTO -ナルト- 疾風伝 絆"
+    },
+    "description": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who left Konoha to kill his brother, Itachi, appears for the second time in front of Naruto at an unknown location to prevent it from coming to fruition.<br><br>\n(Source: Wikipedia)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4437-iYmkXFEF3ybw.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4437-8LQbBZo4N6yi.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4437-8LQbBZo4N6yi.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4437-8LQbBZo4N6yi.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 8,
+      "day": 2
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 8,
+      "day": 2
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 92,
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "averageScore": 69,
+    "popularity": 46887,
+    "favourites": 264,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Pierrot"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4437",
+    "format": "MOVIE",
+    "season": "SUMMER",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 1735,
+            "title": {
+              "romaji": "NARUTO: Shippuuden",
+              "english": "Naruto: Shippuden"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-kGfVm0YqCPcu.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 2007
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 132771,
+            "title": {
+              "romaji": "Gekijouban NARUTO: Shippuuden - Kizuna",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx132771-F0KmFhI51b9Q.jpg"
+            },
+            "status": "FINISHED",
+            "format": "NOVEL",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4439,
+    "idMal": 4439,
+    "title": {
+      "romaji": "Kurenai Sanshirou",
+      "english": "Judo Boy",
+      "native": "紅三四郎"
+    },
+    "description": "Young Sanshiro Kurenai is the proud heir of a judo dojo. One day, he finds his beloved father dead and a glass eye not too far from the corpse. Ready to avenge his father and take his honour back, Sanshiro and his friend Ken start searching for the mysterious one-eyed murderer ...\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4439-RW4y3XO0Q9DP.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4439-2jScXnDnAIeQ.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4439-2jScXnDnAIeQ.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4439-2jScXnDnAIeQ.jpg"
+    },
+    "startDate": {
+      "year": 1969,
+      "month": 4,
+      "day": 2
+    },
+    "endDate": {
+      "year": 1969,
+      "month": 9,
+      "day": 24
+    },
+    "status": "FINISHED",
+    "episodes": 26,
+    "duration": 25,
+    "genres": [
+      "Action",
+      "Sports"
+    ],
+    "averageScore": 55,
+    "popularity": 1034,
+    "favourites": 13,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4439",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 1969,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 129981,
+            "title": {
+              "romaji": "Kurenai Sanshirou",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b129981-53ZnMYMv7Uuw.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4440,
+    "idMal": 4440,
+    "title": {
+      "romaji": "Sugata Sanshiro",
+      "english": "Judo Story",
+      "native": "姿三四郎"
+    },
+    "description": "In the year 1882, Sanshirou comes to Tokyo seeking for a worthy martial arts teacher. There, he meets Yano - a judo master who single-handedly defeats 39 jujitsu practitioners. Extremely impressed by his skill, Sanshirou decides to become his disciple. Later, Sanshirou falls for Sayo Murai - a girl whose father is a martial arts instructor at the local police department; and he also has to face Higaki Gennosuke, a skilled jujitsu fighter and his greatest rival.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4440-iSjpg4hBQBCF.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4440-iSjpg4hBQBCF.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4440-iSjpg4hBQBCF.png"
+    },
+    "startDate": {
+      "year": 1981,
+      "month": 6,
+      "day": 8
+    },
+    "endDate": {
+      "year": 1981,
+      "month": 6,
+      "day": 8
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 70,
+    "genres": [
+      "Action",
+      "Romance",
+      "Sports"
+    ],
+    "averageScore": 57,
+    "popularity": 588,
+    "favourites": 5,
+    "studios": {
+      "nodes": [
+        {
+          "name": "TMS Entertainment"
+        }
+      ]
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/4440",
+    "format": "SPECIAL",
+    "season": "SPRING",
+    "seasonYear": 1981,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4443,
+    "idMal": 4443,
+    "title": {
+      "romaji": "Duel Masters Charge",
+      "english": null,
+      "native": "デュエル・マスターズ　チャージ"
+    },
+    "description": "The 2nd Duel Masters series.<br>\n<br>A mysterious organization is interested in fledging duelist Shobu Kirifuda's ability to bring Duel Master creatures to life. With the support of his friends, Shobu duels with passion, discipline, and heart as he strives to be like his father and become the next Kaijudo master.",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4443-MQ0GXiZjM7uY.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4443-n6I7pxFYCMtx.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4443-n6I7pxFYCMtx.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4443-n6I7pxFYCMtx.jpg"
+    },
+    "startDate": {
+      "year": 2004,
+      "month": 4,
+      "day": 19
+    },
+    "endDate": {
+      "year": 2006,
+      "month": 3,
+      "day": 27
+    },
+    "status": "FINISHED",
+    "episodes": 52,
+    "duration": 21,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "averageScore": 55,
+    "popularity": 1242,
+    "favourites": 7,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4443",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 2004,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 1685,
+            "title": {
+              "romaji": "Duel Masters",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1685-56q9vP5NAKd2.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2002
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 4444,
+            "title": {
+              "romaji": "Zero Duel Masters",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4444.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2007
+          }
+        },
+        {
+          "relationType": "SPIN_OFF",
+          "node": {
+            "id": 10525,
+            "title": {
+              "romaji": "Shinseiki Duel Masters Flash",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/10525.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2006
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4444,
+    "idMal": 4444,
+    "title": {
+      "romaji": "Zero Duel Masters",
+      "english": null,
+      "native": "ゼロ デュエル・マスターズ"
+    },
+    "description": "The 3rd Duel Masters series.<br>\n<br>Story continues the one in Duel Masters Charge.<br><br>\nA mysterious organization is interested in fledging duelist Shobu Kirifuda's ability to bring Duel Master creatures to life. With the support of his friends, Shobu duels with passion, discipline, and heart as he strives to be like his father and become the next Kaijudo master.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4444.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4444.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4444.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": 4,
+      "day": 9
+    },
+    "endDate": {
+      "year": 2007,
+      "month": 9,
+      "day": 28
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 23,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sports"
+    ],
+    "averageScore": 51,
+    "popularity": 778,
+    "favourites": 7,
+    "studios": {
+      "nodes": [
+        {
+          "name": "SynergySP"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4444",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 2007,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 4443,
+            "title": {
+              "romaji": "Duel Masters Charge",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4443-n6I7pxFYCMtx.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2004
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 10526,
+            "title": {
+              "romaji": "Duel Masters Zero",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b10526-vYllnrrXDVSR.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV_SHORT",
+            "season": "FALL",
+            "seasonYear": 2007
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4447,
+    "idMal": 4447,
+    "title": {
+      "romaji": "Meitantei Conan: Senritsu no Gakufu (Full Score)",
+      "english": "Case Closed: Full Score of Fear",
+      "native": "名探偵コナン 戦慄の楽譜（フルスコア）"
+    },
+    "description": "Serial murders involving all kinds have happened. All the victims are from a Music School led by a famous pianist. Conan and company have been invited to a opening concert of the Music Hall built by the pianist. The biggest attraction of this concert is the world famous violin called \"Stradivarius\" and a special appearance of a singer who has perfect pitch.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4447-aztQrCRbw1OK.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4447-aztQrCRbw1OK.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4447-aztQrCRbw1OK.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 4,
+      "day": 19
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 4,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 116,
+    "genres": [
+      "Music",
+      "Mystery"
+    ],
+    "averageScore": 76,
+    "popularity": 10788,
+    "favourites": 98,
+    "studios": {
+      "nodes": [
+        {
+          "name": "TMS Entertainment"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4447",
+    "format": "MOVIE",
+    "season": "SPRING",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 5348,
+            "title": {
+              "romaji": "Meitantei Conan Magic File 2: Kudou Shin'ichi Nazo no Kabe to Kuro Lab Jiken",
+              "english": "Case Closed Magic File 2: Kudou Shinichi - The Case of the Mysterious Wall and the Black Lab"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b5348-tE3vO3tcPVcR.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SPRING",
+            "seasonYear": 2008
+          }
+        },
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 235,
+            "title": {
+              "romaji": "Meitantei Conan",
+              "english": "Case Closed"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx235-MyYT7K3chBdO.jpg"
+            },
+            "status": "RELEASING",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 1996
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4450,
+    "idMal": 4450,
+    "title": {
+      "romaji": "Chrno Crusade: Az Demo Wakaru Chrno Crusade Kouza",
+      "english": "Chrno Crusade: Azmaria's Lessons",
+      "native": "クロノクルセイド アズでもわかるクロノクルセイド講座"
+    },
+    "description": "Azmaria Hendrick gives some background information on characters and the setting, with flashback scenes from the Chrno Crusade series itself.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4450.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4450.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4450.jpg"
+    },
+    "startDate": {
+      "year": 2005,
+      "month": 1,
+      "day": 9
+    },
+    "endDate": {
+      "year": 2005,
+      "month": 1,
+      "day": 9
+    },
+    "status": "FINISHED",
+    "episodes": 11,
+    "duration": 3,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Supernatural"
+    ],
+    "averageScore": 56,
+    "popularity": 1446,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4450",
+    "format": "SPECIAL",
+    "season": "WINTER",
+    "seasonYear": 2005,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 60,
+            "title": {
+              "romaji": "Chrno Crusade",
+              "english": "Chrono Crusade"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx60-nWs0N9upSorj.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "FALL",
+            "seasonYear": 2003
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4451,
+    "idMal": 4451,
+    "title": {
+      "romaji": "Tanin no Kankei",
+      "english": "Homeroom Affairs",
+      "native": "他人の関係"
+    },
+    "description": "The person waiting for Tokirou Ehara, newly appointed English teacher at famed Mitsuba Girls High School (and, incidentally, still a virgin), is Miyako Hase, whose pure and innocent face hides her \"playful\" nature! When he accidentally finds out her secret, Tokirou marshals his pride as a teacher and plots to make Miyako a proper student - but gets wrapped up in her cute charm instead.<br>\n<br>\n(Source: Star Anime Enterprises)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4451-zOXhQUlNGOUJ.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4451-zOXhQUlNGOUJ.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4451-zOXhQUlNGOUJ.png"
+    },
+    "startDate": {
+      "year": 1994,
+      "month": 8,
+      "day": 26
+    },
+    "endDate": {
+      "year": 1994,
+      "month": 10,
+      "day": 21
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 45,
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Romance"
+    ],
+    "averageScore": 56,
+    "popularity": 1234,
+    "favourites": 11,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4451",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 1994,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 51851,
+            "title": {
+              "romaji": "Tanin no Kankei",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/21851.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4452,
+    "idMal": 4452,
+    "title": {
+      "romaji": "Hoshikuzu Paradise",
+      "english": null,
+      "native": "星屑パラダイス"
+    },
+    "description": "After his mother passed away, high school student Hiroshi Houshou's long lost father suddenly reappears, along with two new family members: a new mother who is also a famous actress, and her daughter, the popular and beautiful idol singer Rina Yuuki.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4452.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4452.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4452.jpg"
+    },
+    "startDate": {
+      "year": 1991,
+      "month": 7,
+      "day": 25
+    },
+    "endDate": {
+      "year": 1991,
+      "month": 7,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 40,
+    "genres": [
+      "Comedy"
+    ],
+    "averageScore": 51,
+    "popularity": 726,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4452",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 1991,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 37228,
+            "title": {
+              "romaji": "Hoshikuzu Paradise",
+              "english": "Stardust Paradise"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/7228.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4454,
+    "idMal": 4454,
+    "title": {
+      "romaji": "Macross Frontier Deculture Edition",
+      "english": null,
+      "native": "マクロスＦ"
+    },
+    "description": "An expanded version of the first episode of Macross Frontier.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4454.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4454.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4454.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": 12,
+      "day": 23
+    },
+    "endDate": {
+      "year": 2007,
+      "month": 12,
+      "day": 23
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 28,
+    "genres": [
+      "Action",
+      "Mecha",
+      "Music",
+      "Sci-Fi"
+    ],
+    "averageScore": 72,
+    "popularity": 3180,
+    "favourites": 20,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4454",
+    "format": "SPECIAL",
+    "season": "WINTER",
+    "seasonYear": 2007,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 3572,
+            "title": {
+              "romaji": "Macross Frontier",
+              "english": "Macross Frontier"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3572-qYJhokKdsnZR.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2008
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4458,
+    "idMal": 4458,
+    "title": {
+      "romaji": "Bavel no Hon",
+      "english": "Bavel's Book",
+      "native": "バベルの本"
+    },
+    "description": "A boy and his young sister were curious about the book someone had left on a bench, and they opened the book. Then the small Tower of Bavel was completed on a page. Looking into the tower, they found an old man sitting and reading a book, surrounded by innumerable books. As the man turned pages, mythical animals appeared and disappeared.<br><br>\n(Source: yamamura-animation.jp)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4458.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4458.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4458.jpg"
+    },
+    "startDate": {
+      "year": 1996,
+      "month": 10,
+      "day": 14
+    },
+    "endDate": {
+      "year": 1996,
+      "month": 10,
+      "day": 14
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 5,
+    "genres": [],
+    "averageScore": 49,
+    "popularity": 868,
+    "favourites": 1,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4458",
+    "format": "SPECIAL",
+    "season": "FALL",
+    "seasonYear": 1996,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4459,
+    "idMal": 4459,
+    "title": {
+      "romaji": "Ojarumaru",
+      "english": "Prince Mackaroo",
+      "native": "おじゃる丸"
+    },
+    "description": "In the Heian era, around 1000 years ago, a young boy of noble family named Ojarumaru is bored with his life of privilege. Meanwhile, three demons steal the power-stick of Enma, king of demons, and then lose it. Ojarumaru finds it, and uses it to transport himself to the present time. Here, he is befriended by a young boy named Kazuma, and becomes a member of his family. As time goes on, Ojarumaru makes many new friends, while dodging the comedic efforts of the three demons, Akane, Kisuke, and Aobee, as they try to recover the stick. \n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4459.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4459.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4459.jpg"
+    },
+    "startDate": {
+      "year": 1998,
+      "month": 10,
+      "day": 5
+    },
+    "endDate": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "status": "RELEASING",
+    "episodes": null,
+    "duration": 10,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "averageScore": 54,
+    "popularity": 624,
+    "favourites": 9,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Gallop"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4459",
+    "format": "TV_SHORT",
+    "season": "FALL",
+    "seasonYear": 1998,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 16480,
+            "title": {
+              "romaji": "Ojarumaru Yakusoku no Natsu Ojaru to Semira Movie",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16480.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 2000
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 16482,
+            "title": {
+              "romaji": "Ojarumaru: Mangetsu Road Kiki Ippatsu - Tama ni wa Maro mo Daibouken",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/16482.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SPRING",
+            "seasonYear": 2007
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 200645,
+            "title": {
+              "romaji": "Ojarumaru no Koutsuu Anzen",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b200645-El1kG5w1Rkn2.png"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 200647,
+            "title": {
+              "romaji": "Ojarumaru: Heianchou Onigami Kessen",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b200647-Klkzd6HtkX1I.png"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "WINTER",
+            "seasonYear": 2022
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 200648,
+            "title": {
+              "romaji": "Ojarumaru: Wasureta Mori no Hinata",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b200648-hDzbaDjYC5MC.png"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SUMMER",
+            "seasonYear": 2015
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 200646,
+            "title": {
+              "romaji": "Ojarumaru: Chitchai Mono no Ookina Chikara",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b200646-qYnI9TMoER7c.png"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4460,
+    "idMal": 4460,
+    "title": {
+      "romaji": "Kikumana",
+      "english": null,
+      "native": "キクマナ"
+    },
+    "description": "This work \"Kikumana\" is an animation of a girl called Kikumana who acts like in a stage performance, the role defeated by such an ill circumstance though she tries to find herself. The primal aim is to get the audience feeling a strange atmosphere spread from this work. The image has a pictorial atmosphere and a documentary touch at the same time. Unrealistic phenomena take place there.<br><br>\n(Source: AniDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4460-dJTy6ocwVP1o.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4460-dJTy6ocwVP1o.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4460-dJTy6ocwVP1o.jpg"
+    },
+    "startDate": {
+      "year": 2001,
+      "month": 7,
+      "day": 14
+    },
+    "endDate": {
+      "year": 2001,
+      "month": 7,
+      "day": 14
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 6,
+    "genres": [
+      "Psychological"
+    ],
+    "averageScore": 51,
+    "popularity": 2641,
+    "favourites": 7,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4460",
+    "format": "ONA",
+    "season": "SUMMER",
+    "seasonYear": 2001,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4461,
+    "idMal": 4461,
+    "title": {
+      "romaji": "Man & Whale",
+      "english": null,
+      "native": "校長先生とクジラ"
+    },
+    "description": "A seaside school. In the corridor stands the principal, beloved of the high-spirited youngsters. Gazing at a picture of a whale drawn as a child, the head teacher is swept away with sentiment into a flashback from the past. Just then, on the ocean horizon... <br><br>\n(Source: Official site)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4461.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4461.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4461.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 2007,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 2,
+    "genres": [
+      "Drama"
+    ],
+    "averageScore": 53,
+    "popularity": 682,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4461",
+    "format": "MOVIE",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4462,
+    "idMal": 4462,
+    "title": {
+      "romaji": "Tairiki Tarou no Mucha Shuugyou",
+      "english": null,
+      "native": "大力太郎の無茶修業"
+    },
+    "description": "Short film from 1928 about a samurai fighting demons. ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4462.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4462.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4462.jpg"
+    },
+    "startDate": {
+      "year": 1928,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 1928,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 1,
+    "genres": [
+      "Action"
+    ],
+    "averageScore": 39,
+    "popularity": 594,
+    "favourites": 0,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4462",
+    "format": "MOVIE",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4463,
+    "idMal": 4463,
+    "title": {
+      "romaji": "Custom Reido",
+      "english": "Custom Slave",
+      "native": "カスタム隷奴"
+    },
+    "description": "Based on the game by Kiss.<br><br>\nArisugawa Academy. An all-girl school well known for its high standards with the upper class. However, there is a dark side to this educational facility. The Chairman of the academy, Takahashi Hiroaki, is actually a member of a secret organization whose prime objective is to cater to the sexual desires of government officials. Mutsuki Sayoko has fallen into the hands of this sinister being, who leads her to the path of libido. A high-class, well-behaved student or a horny, wicked sex slave... which is the true her?<br><br>\n(Source: AniDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4463.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4463.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4463.jpg"
+    },
+    "startDate": {
+      "year": 2001,
+      "month": 5,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2001,
+      "month": 5,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 42,
+    "popularity": 391,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4463",
+    "format": "OVA",
+    "season": "SPRING",
+    "seasonYear": 2001,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4467,
+    "idMal": 4467,
+    "title": {
+      "romaji": "Universe",
+      "english": "Universe",
+      "native": "ユニバース"
+    },
+    "description": "Under the night sky feebly illuminated by innumerable twinkling stars, a little girl wanders alone through a magic world between darkness and dawan, that is not today and not tomorrow, inhabited by 6 billion solitudes. What will she encounter in this solitary night journey?<br><br>\nMusic video for Maaya Sakamoto's song Universe, created by Production I.G.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4467.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4467.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4467.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": null,
+      "day": null
+    },
+    "endDate": {
+      "year": 2007,
+      "month": null,
+      "day": null
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 5,
+    "genres": [
+      "Fantasy"
+    ],
+    "averageScore": 59,
+    "popularity": 785,
+    "favourites": 6,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Production I.G"
+        }
+      ]
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4467",
+    "format": "MUSIC",
+    "season": null,
+    "seasonYear": null,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4468,
+    "idMal": 4468,
+    "title": {
+      "romaji": "Nagagutsu wo Haita Neko no Boken",
+      "english": null,
+      "native": "長靴をはいた猫の冒険"
+    },
+    "description": "Anime adaptation of Charles Perrault fairy tale, directed by Susumu Ishizaki.",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4468.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4468.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4468.jpg"
+    },
+    "startDate": {
+      "year": 1992,
+      "month": 4,
+      "day": 1
+    },
+    "endDate": {
+      "year": 1992,
+      "month": 9,
+      "day": 23
+    },
+    "status": "FINISHED",
+    "episodes": 26,
+    "duration": 20,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "averageScore": 49,
+    "popularity": 396,
+    "favourites": 1,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4468",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 1992,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4469,
+    "idMal": 4469,
+    "title": {
+      "romaji": ".hack//G.U. Trilogy: Parody Mode",
+      "english": null,
+      "native": ".hack//G.U. Trilogy"
+    },
+    "description": "A special bonus Parody Mode added to the extras of the .hack//G.U. Trilogy <br><br>\n(Source: AniDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4469.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4469.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4469.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 3,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 3,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 6,
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "averageScore": 56,
+    "popularity": 1892,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VIDEO_GAME",
+    "siteUrl": "https://anilist.co/anime/4469",
+    "format": "SPECIAL",
+    "season": "SPRING",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 3269,
+            "title": {
+              "romaji": ".hack//G.U. Trilogy",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3269-8LX2zM2vgr4f.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SPRING",
+            "seasonYear": 2008
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4470,
+    "idMal": 4470,
+    "title": {
+      "romaji": "Gene Diver",
+      "english": "Gene Diver",
+      "native": "ジーンダイバー"
+    },
+    "description": "Virtual Station is a laboratory with the purpose of gathering and researching DNA. With the information gained through combining old DNA elements, the ancient world was virtually reconstructed. Yui is one of the Gene Divers. She enters the virtual ancient world to collect the DNA of animals that are extinct in reality.<br><br>\nBut then an incident happens. Yui tries to leave the virtual world during a maintenance cycle, but instead of being returned to reality she is transferred to a new virtual present. In this new world, generated by the now uncontrollable system, an intelligent species evolved from rodents, called puglaistig exists. They consider the existence of humankind a serious threat and try to stop human evolution by all means.<br><br>\n(Source: Kaninona.org)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4470.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4470.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4470.jpg"
+    },
+    "startDate": {
+      "year": 1994,
+      "month": 4,
+      "day": 4
+    },
+    "endDate": {
+      "year": 1995,
+      "month": 1,
+      "day": 24
+    },
+    "status": "FINISHED",
+    "episodes": 56,
+    "duration": 20,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "averageScore": 61,
+    "popularity": 359,
+    "favourites": 3,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Studio Junio"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4470",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 1994,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4471,
+    "idMal": 4471,
+    "title": {
+      "romaji": "Shin SOS Dai Tokyo Tankentai",
+      "english": null,
+      "native": "新SOS大東京探検隊"
+    },
+    "description": "While packing for a move, elementary school student Ryuuhei finds his father's old school notebook detailing a search for a treasure in Tokyo's vast network of underground passages. With his little brother tagging along, he and three friends from an online chat room gather and set out on a quest to find the treasure. What they discover instead is an entire underground community composed of assorted eccentrics, including a senile old soldier still performing a World War II-era mission.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4471.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4471.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4471.jpg"
+    },
+    "startDate": {
+      "year": 2007,
+      "month": 5,
+      "day": 19
+    },
+    "endDate": {
+      "year": 2007,
+      "month": 5,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 40,
+    "genres": [
+      "Adventure"
+    ],
+    "averageScore": 49,
+    "popularity": 498,
+    "favourites": 2,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Sunrise"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4471",
+    "format": "MOVIE",
+    "season": "SPRING",
+    "seasonYear": 2007,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 38592,
+            "title": {
+              "romaji": "Tokyo Metro Explorer",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx38592-tqisfL0l0vM6.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4472,
+    "idMal": 4472,
+    "title": {
+      "romaji": "Lucky☆Star OVA",
+      "english": "Lucky☆Star OVA",
+      "native": "らき☆すた OVA"
+    },
+    "description": "The OVA features six separate stories revolving around the cast, some of which border on the bizarre; one of which is an MMORPG environment being played by Konata, Kagami, Tsukasa, and Nanako Kuroi, and another in which Kagami has a \"suggestive\" dream about Konata. <br>\n",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4472-iC1646gsIJtT.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4472-I4r5rkEdA6zK.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4472-I4r5rkEdA6zK.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4472-I4r5rkEdA6zK.png"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 9,
+      "day": 26
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 9,
+      "day": 26
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 42,
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "averageScore": 76,
+    "popularity": 28542,
+    "favourites": 202,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Kyoto Animation"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4472",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 1887,
+            "title": {
+              "romaji": "Lucky☆Star",
+              "english": "Lucky☆Star"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1887-P36Pucd4qKji.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2007
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4473,
+    "idMal": 4473,
+    "title": {
+      "romaji": "Shoujo Sect",
+      "english": "Shoujo Sect",
+      "native": "少女セクト"
+    },
+    "description": "Shinobu Honda and Momoko Naitou know each other since childhood. Shinobu fell in love with Momoko from the first day they met. Now in high school, Momoko has forgotten about the past, but Shinobu hasn't. Both follow their own ways but Shinobu still hopes for Momoko to remember their promise from long ago.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4473.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4473.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4473.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 7,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 11,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 3,
+    "duration": 25,
+    "genres": [
+      "Drama",
+      "Hentai",
+      "Romance"
+    ],
+    "averageScore": 62,
+    "popularity": 5206,
+    "favourites": 55,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4473",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2008,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 31394,
+            "title": {
+              "romaji": "Shoujo Sect",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx31394-RTwXH5hU5ezY.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4475,
+    "idMal": 4475,
+    "title": {
+      "romaji": "Toshi wo totta Wani",
+      "english": "The Old Crocodile",
+      "native": "年をとった鰐"
+    },
+    "description": "A very old crocodile, so old that he had witnessed the building of the pyramids, was suffering from rheumatism, and no longer able to catch his food. In desperation, he decided to eat his great grand son. Although his thousands of years of longevity entitled him to much respect, the family decided he would have to be put down. <br><br>\nUnable to bear the disrespect of his family, the old crocodile said goodbye to the Nile. One day the old crocodile met an octopus. The octopus treated her new friend to a variety of fish that she caught just for him. When the night fell, he couldn&rsquo;t restrain himself from eating one of the octopus&rsquo;s legs. Since then, the old crocodile began to help himself to the octopus&rsquo; leg every night&hellip;<br><br>\n(Source: AniDB)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4475-cLiF8vGWVir9.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4475.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4475.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4475.jpg"
+    },
+    "startDate": {
+      "year": 2005,
+      "month": 3,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2005,
+      "month": 3,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 13,
+    "genres": [
+      "Drama"
+    ],
+    "averageScore": 57,
+    "popularity": 1117,
+    "favourites": 4,
+    "studios": {
+      "nodes": []
+    },
+    "source": null,
+    "siteUrl": "https://anilist.co/anime/4475",
+    "format": "MOVIE",
+    "season": "SPRING",
+    "seasonYear": 2005,
+    "isAdult": false,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4476,
+    "idMal": 4476,
+    "title": {
+      "romaji": "Saiyuuki Interactive OVA",
+      "english": "Saiyuki Interactive",
+      "native": "幻想魔伝最遊記-希望の罪過-"
+    },
+    "description": "A mysterious light falls from the Heavens. It's the Pearl Jade. It can grant any wish. Dr. Ni tells Gyokumen Koushu about it. Lirin overhears and tells Kougaiji. Then Kanzeon Bosatsu (The Merciful Goddess) requests \"orders\" Sanzo and company to go and find and seal it before it falls into the wrong hands.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4476.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4476.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4476.jpg"
+    },
+    "startDate": {
+      "year": 2002,
+      "month": 9,
+      "day": 19
+    },
+    "endDate": {
+      "year": 2002,
+      "month": 9,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 46,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "averageScore": 57,
+    "popularity": 903,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4476",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 2002,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 129,
+            "title": {
+              "romaji": "Gensou Maden Saiyuuki",
+              "english": "Saiyuki"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129-YjyAZNbmTGxE.png"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4477,
+    "idMal": 4477,
+    "title": {
+      "romaji": "Nodame Cantabile: Paris-hen",
+      "english": null,
+      "native": "のだめカンタービレ 巴里編"
+    },
+    "description": "Having been given the opportunity to study in Paris, Noda accompanies Chiaki to Europe as he strives to become the accomplished conductor he always dreamt to be.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4477-t23iFe7Su3Ff.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx4477-Qg9EwJP1f5NF.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx4477-Qg9EwJP1f5NF.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx4477-Qg9EwJP1f5NF.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 10,
+      "day": 10
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 12,
+      "day": 19
+    },
+    "status": "FINISHED",
+    "episodes": 11,
+    "duration": 23,
+    "genres": [
+      "Comedy",
+      "Music",
+      "Romance",
+      "Slice of Life"
+    ],
+    "averageScore": 78,
+    "popularity": 20052,
+    "favourites": 125,
+    "studios": {
+      "nodes": [
+        {
+          "name": "J.C.STAFF"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4477",
+    "format": "TV",
+    "season": "FALL",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 1698,
+            "title": {
+              "romaji": "Nodame Cantabile",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx1698-VhVaiOLkcGCp.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 2007
+          }
+        },
+        {
+          "relationType": "SEQUEL",
+          "node": {
+            "id": 8038,
+            "title": {
+              "romaji": "Nodame Cantabile Finale Special",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx8038-b8K9nnetX8Xx.jpg"
+            },
+            "status": "FINISHED",
+            "format": "SPECIAL",
+            "season": "SPRING",
+            "seasonYear": 2010
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 30419,
+            "title": {
+              "romaji": "Nodame Cantabile",
+              "english": "Nodame Cantabile"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30419-lT7p72ItXPNK.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 6187,
+            "title": {
+              "romaji": "Nodame Cantabile OVA",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/6187.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SUMMER",
+            "seasonYear": 2009
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4479,
+    "idMal": 4479,
+    "title": {
+      "romaji": "Shitsurakuen",
+      "english": "Sinners Paradise",
+      "native": "失楽園"
+    },
+    "description": "Longtime friends Erika and Akino have a difficult road ahead of them. One minute, they're basking in the warm summer air, and the next, they're sucked into a strange dimension. There, an army of mysterious soldiers declare that the two women are allies of an enemy nation and put them through all manner of perverse torture. But even if they could escape their captors, where could they run when they don't even know where they are? <br><br>\n(Source: Mania.com) ",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4479.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4479.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4479.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 2,
+      "day": 8
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 5,
+      "day": 9
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 44,
+    "popularity": 384,
+    "favourites": 4,
+    "studios": {
+      "nodes": []
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4479",
+    "format": "OVA",
+    "season": "WINTER",
+    "seasonYear": 2008,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4480,
+    "idMal": 4480,
+    "title": {
+      "romaji": "Ryoujoku Guerrilla Kari 3",
+      "english": null,
+      "native": "凌辱ゲリラ狩り3"
+    },
+    "description": "There is a spaceship called Victoire. It keeps winning and never loses. The ship is controlled by young and beautiful women, and their victory always boosts the morale of the team. But the ship and its secrets are sold to the enemy after the war, and the women are confined in prison. They have nothing to protect themselves...   <br><br>\n(Source: AniDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4480.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4480.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4480.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 2,
+      "day": 29
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 4,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 50,
+    "popularity": 487,
+    "favourites": 2,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4480",
+    "format": "OVA",
+    "season": "WINTER",
+    "seasonYear": 2008,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4481,
+    "idMal": 4481,
+    "title": {
+      "romaji": "Saiyuuki",
+      "english": "Alakazam the Great",
+      "native": "西遊記"
+    },
+    "description": "Alakazam is a young and brave monkey who convinces all the other monkeys to make him their king. After attaining the throne and learning magic, he becomes so vain that he goes to heaven to challenge the gods. He is defeated by King Amo, and sentenced to serve as the bodyguard of Prince Amat in order to learn humility.\n<br>\n---\n<br>\nOsamu Tezuka was named as a director of the film by Toei Company. However, Tezuka later stated that the only time he was in the studio was to pose for publicity photos. His involvement in promoting the film, however, led to his interest in animation.\n\n\n",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/n4481-VruxM6ssgKty.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4481-teZlyolwFmuG.png",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4481-teZlyolwFmuG.png",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4481-teZlyolwFmuG.png"
+    },
+    "startDate": {
+      "year": 1960,
+      "month": 8,
+      "day": 14
+    },
+    "endDate": {
+      "year": 1960,
+      "month": 8,
+      "day": 14
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 88,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "averageScore": 55,
+    "popularity": 1569,
+    "favourites": 6,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toei Animation"
+        }
+      ]
+    },
+    "source": "OTHER",
+    "siteUrl": "https://anilist.co/anime/4481",
+    "format": "MOVIE",
+    "season": "SUMMER",
+    "seasonYear": 1960,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 49507,
+            "title": {
+              "romaji": "Boku no Son Goku",
+              "english": "My Son Goku"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/19507.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4483,
+    "idMal": 4483,
+    "title": {
+      "romaji": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
+      "english": "Someday's Dreamers II Sora",
+      "native": "魔法遣いに大切なこと ～夏のソラ～"
+    },
+    "description": "Get ready for a second magical journey to the world of Someday's Dreamers, where spellcasting is a profession that requires both the proper training AND a license. It's to get that license and fulfill a promise made to her late father that young Sora Suzuki has made the long journey from her distant home in the countryside town of Biei to the big city of Tokyo. It's a daunting challenge, but she's got a little bit of talent, a charming personality and, most important of all, the promise of an internship! What she ISN'T expecting, though, is how different life in the city will be, especially the people themselves. While she gets along with the confident Asagi, Kuroda and the gentle Hiyori, she's completely confused with the mysterious boy Gouta. And yet, as a result of their internships they keep ending up in the same situations and slowly learning to understand more about each other than they ever imagined possible! <br><br>\n(Source: Sentai Filmworks) ",
+    "bannerImage": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/4483-Z1ZoxHI4bNSK.jpg",
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx4483-TFQXbx7NmL0C.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx4483-TFQXbx7NmL0C.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4483-TFQXbx7NmL0C.jpg"
+    },
+    "startDate": {
+      "year": 2008,
+      "month": 7,
+      "day": 3
+    },
+    "endDate": {
+      "year": 2008,
+      "month": 9,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 12,
+    "duration": 23,
+    "genres": [
+      "Drama",
+      "Romance",
+      "Slice of Life",
+      "Supernatural"
+    ],
+    "averageScore": 69,
+    "popularity": 6479,
+    "favourites": 38,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Hal Film Maker"
+        }
+      ]
+    },
+    "source": "ORIGINAL",
+    "siteUrl": "https://anilist.co/anime/4483",
+    "format": "TV",
+    "season": "SUMMER",
+    "seasonYear": 2008,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 273,
+            "title": {
+              "romaji": "Mahoutsukai ni Taisetsu na Koto",
+              "english": "Someday's Dreamers"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx273-x5hAqOcqvMZr.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 2003
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 35898,
+            "title": {
+              "romaji": "Mahoutsukai ni Taisetsu na Koto: Natsu no Sora",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx35898-EJppC8ehkGel.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4484,
+    "idMal": 4484,
+    "title": {
+      "romaji": "Umi no Yami, Tsuki no Kage",
+      "english": "Darkness of the Sea, Shadow of the Moon",
+      "native": "海の闇、月の影"
+    },
+    "description": "Lumi and Luka Kobayakawa are identical twins who both are members of the track team and have a crush on a handsome upperclassman Katsuyuki Tohma, but he chooses the latter. While Luka doesn't want to hurt Lumi's feelings, Lumi feels betrayed by her own sister. On their way to the party celebrating the graduation of eldest members of the team, they take shelter in a cave, which turns out to be a mass grave, and all members were killed by the strange smell from the cave, with Lumi and Luka only survivors. After the tragedy, Lumi has become a completely different person, and one day she literally emerges from the floor of Luka's room...\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4484.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4484.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4484.jpg"
+    },
+    "startDate": {
+      "year": 1989,
+      "month": 10,
+      "day": 14
+    },
+    "endDate": {
+      "year": 1989,
+      "month": 10,
+      "day": 14
+    },
+    "status": "FINISHED",
+    "episodes": 3,
+    "duration": 30,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Romance"
+    ],
+    "averageScore": 59,
+    "popularity": 1247,
+    "favourites": 11,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Visual 80"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4484",
+    "format": "OVA",
+    "season": "FALL",
+    "seasonYear": 1989,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 30636,
+            "title": {
+              "romaji": "Umi no Yami, Tsuki no Kage",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/bx30636-jWSxOULwfR8k.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4485,
+    "idMal": 4485,
+    "title": {
+      "romaji": "Kasei Yakyoku",
+      "english": "Nightsong of Splendor",
+      "native": "華星夜曲"
+    },
+    "description": "The story takes place in old Tokyo, the Tokyo of August-September 1923 (Showa 12). At this moment in time, the city is a mixture of extremes... past and present, rich and poor, good and bad. This is a city where we see both horsecarts and motorcars, swords and pistols, lords and businessmen.\n<br><br>\nA wealthy woman from an upper-class family finds herself attracted to a handsome young man, Taka. He and his younger brother seem to be allied, perhaps not entirely willingly, with some of the city's criminal underground (Yakuza). The lady's lovely young maidservant, Sara, meets him too, and a conflict ensues which can only lead to tragedy, passion, and dishonor. But, as events move on, and the days pass, the viewer sees a terrible date coming closer...\n<br><br>\n(Source: Technogirls)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4485.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4485.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4485.jpg"
+    },
+    "startDate": {
+      "year": 1989,
+      "month": 3,
+      "day": 25
+    },
+    "endDate": {
+      "year": 1989,
+      "month": 9,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 4,
+    "duration": 30,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "averageScore": 61,
+    "popularity": 1787,
+    "favourites": 15,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Magic Bus"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4485",
+    "format": "OVA",
+    "season": "SPRING",
+    "seasonYear": 1989,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 122352,
+            "title": {
+              "romaji": "Kasei Yakyoku",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b122352-FDrXRvnrExRj.png"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4486,
+    "idMal": 4486,
+    "title": {
+      "romaji": "Getter Robo G",
+      "english": "Getter Robo G",
+      "native": "ゲッターロボG"
+    },
+    "description": "Takes place after the final defeat of the Dinosaur Empire and the death of Musashi Tomoe in the original Getter Robo series.<br><br>\nDr. Saotome, creator of Getter Robo, fears that the peace the Getter Robo team has won will be short lived and that an even greater enemies would appear. Dr. Saotome's fears are justified when the militaristic Hyakki (or \"Hundred demons\") Empire appears, but Dr. Saotome is prepared with the creation of an even more powerful Getter Robo, Getter Robo G and a new Getter Robo base. Also with Musashi Tomoe dead, Dr. Saotome needs a third pilot which he finds in baseball player Benkei Kuruma.<br><br>\n(Source: Wikipedia)<br><br>",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4486-KWPJIXTe8p19.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b4486-KWPJIXTe8p19.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b4486-KWPJIXTe8p19.jpg"
+    },
+    "startDate": {
+      "year": 1975,
+      "month": 5,
+      "day": 15
+    },
+    "endDate": {
+      "year": 1976,
+      "month": 3,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 39,
+    "duration": 24,
+    "genres": [
+      "Mecha"
+    ],
+    "averageScore": 62,
+    "popularity": 1350,
+    "favourites": 11,
+    "studios": {
+      "nodes": [
+        {
+          "name": "Toei Animation"
+        }
+      ]
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4486",
+    "format": "TV",
+    "season": "SPRING",
+    "seasonYear": 1975,
+    "isAdult": false,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PREQUEL",
+          "node": {
+            "id": 3579,
+            "title": {
+              "romaji": "Getter Robo",
+              "english": "Getter Robo"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b3579-b4eywFaEGBD5.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "SPRING",
+            "seasonYear": 1974
+          }
+        },
+        {
+          "relationType": "ADAPTATION",
+          "node": {
+            "id": 37759,
+            "title": {
+              "romaji": "Getter Robo G",
+              "english": "Getter Robo G"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/small/b37759-dANoDq6Y19iy.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MANGA",
+            "season": null,
+            "seasonYear": null
+          }
+        },
+        {
+          "relationType": "ALTERNATIVE",
+          "node": {
+            "id": 5292,
+            "title": {
+              "romaji": "Getter Robo Go",
+              "english": "Getter Robo Go"
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5292-DLiutsWESCEr.jpg"
+            },
+            "status": "FINISHED",
+            "format": "TV",
+            "season": "WINTER",
+            "seasonYear": 1991
+          }
+        },
+        {
+          "relationType": "CHARACTER",
+          "node": {
+            "id": 3481,
+            "title": {
+              "romaji": "Grendizer: Getter Robo G - Great Mazinger Kessen! Daikaijuu",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/3481.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 1976
+          }
+        },
+        {
+          "relationType": "SIDE_STORY",
+          "node": {
+            "id": 4386,
+            "title": {
+              "romaji": "Great Mazinger vs. Getter Robo G: Kuuchuu Dai-Gekitotsu",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4386.jpg"
+            },
+            "status": "FINISHED",
+            "format": "MOVIE",
+            "season": "SUMMER",
+            "seasonYear": 1975
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4487,
+    "idMal": 4487,
+    "title": {
+      "romaji": "Ebenbourg no Kaze",
+      "english": "Wind of Ebenbourg",
+      "native": "エーベンブルグの風"
+    },
+    "description": "Claude was a poor scholar living in England, but is called back to become the Lord of Ronsard by a counselor known as Sophie. Claude's life begins anew with the fate of the city in his hands. But the exiled former lord Eric wants his power back and plans to assassinate Claude. At his new home, Claude meets the lovely maid of the mansion, Mylene.\n<br><br>\n(Source: Anime News Network)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4487.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4487.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4487.jpg"
+    },
+    "startDate": {
+      "year": 2003,
+      "month": 7,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2003,
+      "month": 9,
+      "day": 26
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 29,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 48,
+    "popularity": 356,
+    "favourites": 3,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4487",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2003,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4488,
+    "idMal": 4488,
+    "title": {
+      "romaji": "Keraku no Ou",
+      "english": "King of Pleasure",
+      "native": "けらく[快楽]の王"
+    },
+    "description": "No friends, daily beatings by bullies &amp; even his parents have given up on Ryouichi. However, his life changes one day when a new girl transfers to his class. Chihiro is an old childhood friend, and she remembers Ryouichi. She is unaware that he has suffered brain damage from an injury he sustained while they were playing together as children. Riddled with guilt, she offers to do anything for him. Taking advantage of the situation, Ryouichi demands sex from her. Her conscience does not allow Chihiro to back out, and she agrees. Ryouichi quickly learns that he is infallible in bed, and vows to make every woman who has wronged him his sexual slave! (Source: hkdvdstore.net)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4488.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4488.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4488.jpg"
+    },
+    "startDate": {
+      "year": 2002,
+      "month": 7,
+      "day": 18
+    },
+    "endDate": {
+      "year": 2002,
+      "month": 12,
+      "day": 18
+    },
+    "status": "FINISHED",
+    "episodes": 3,
+    "duration": 29,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 47,
+    "popularity": 438,
+    "favourites": 6,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4488",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 2002,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  },
+  {
+    "id": 4489,
+    "idMal": 4489,
+    "title": {
+      "romaji": "Septem Charm Magical Kanan: SP Dokidoki♥Summer Camp",
+      "english": null,
+      "native": "Septem Charm まじかるカナン SP どきどき♥サマーキャンプ!"
+    },
+    "description": "Based on the erotic game by Terios.<br>\n<br>\nChihaya &amp; friends come to the beach for summer camp. There they meet their classmate Nami Minami. She likes Natsuki, but doesn't have the courage to talk to him. As the darkness inside Nami grows, she finds an old mansion where the \"Netherworld Tree\" awaits her. It was the start of the incident that would rock the boat?<br>\n<br>\n(Source: AnimeDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4489.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4489.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4489.jpg"
+    },
+    "startDate": {
+      "year": 2002,
+      "month": 8,
+      "day": 25
+    },
+    "endDate": {
+      "year": 2003,
+      "month": 2,
+      "day": 25
+    },
+    "status": "FINISHED",
+    "episodes": 2,
+    "duration": 30,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 46,
+    "popularity": 504,
+    "favourites": 8,
+    "studios": {
+      "nodes": []
+    },
+    "source": "VISUAL_NOVEL",
+    "siteUrl": "https://anilist.co/anime/4489",
+    "format": "SPECIAL",
+    "season": "SUMMER",
+    "seasonYear": 2002,
+    "isAdult": true,
+    "relations": {
+      "edges": [
+        {
+          "relationType": "PARENT",
+          "node": {
+            "id": 3301,
+            "title": {
+              "romaji": "Septem Charm Magical Kanan",
+              "english": null
+            },
+            "coverImage": {
+              "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/3301.jpg"
+            },
+            "status": "FINISHED",
+            "format": "OVA",
+            "season": "SUMMER",
+            "seasonYear": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": 4490,
+    "idMal": 4490,
+    "title": {
+      "romaji": "SOAP no MOKO-chan",
+      "english": "My Fair Masseuse",
+      "native": "SOAPのMOKOちゃん"
+    },
+    "description": "Moko is a masseuse who gives her male clients a special massage, guaranteed to help them release stress. Of all the women in her profession, Miko is one of the most popular. Her secret is simple, it's just that she enjoys pleasing men so much, that she loves the massages just as much as her clients do.<br><br>\n(Source: AniDB)",
+    "bannerImage": null,
+    "coverImage": {
+      "extraLarge": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4490.jpg",
+      "large": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/4490.jpg",
+      "medium": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/4490.jpg"
+    },
+    "startDate": {
+      "year": 1996,
+      "month": 6,
+      "day": 21
+    },
+    "endDate": {
+      "year": 1996,
+      "month": 6,
+      "day": 21
+    },
+    "status": "FINISHED",
+    "episodes": 1,
+    "duration": 40,
+    "genres": [
+      "Hentai"
+    ],
+    "averageScore": 53,
+    "popularity": 493,
+    "favourites": 8,
+    "studios": {
+      "nodes": []
+    },
+    "source": "MANGA",
+    "siteUrl": "https://anilist.co/anime/4490",
+    "format": "OVA",
+    "season": "SUMMER",
+    "seasonYear": 1996,
+    "isAdult": true,
+    "relations": {
+      "edges": []
+    }
+  }
+]

@@ -35,13 +35,13 @@ function getAniListId(url: string | null): number | null {
 }
 
 const SCRAPE_QUERY = gql`
-  query ($year: Int, $page: Int) {
+  query ($page: Int) {
     Page(page: $page, perPage: 50) {
       pageInfo {
         hasNextPage
         total
       }
-      media(seasonYear: $year, type: ANIME) {
+      media(type: ANIME, sort: ID) {
         id
         idMal
         title { romaji english native }
@@ -73,6 +73,8 @@ const SCRAPE_QUERY = gql`
               coverImage { medium }
               status
               format
+              season
+              seasonYear
             }
           }
         }
@@ -86,130 +88,130 @@ function formatDate(date: { year: number; month: number; day: number }): string 
     return `${date.year}-${String(date.month || 1).padStart(2, '0')}-${String(date.day || 1).padStart(2, '0')}`;
 }
 
-async function scrape() {
-    const startYear = 2000;
-    const endYear = 2030;
-
-    // 1. Read export.json to build user status map
-    console.log('📖 Loading local export.json...');
-    const exportPath = path.join(process.cwd(), 'export.json');
-    let userStatusMap: Record<number, string> = {};
+async function fetchPage(page: number, userStatusMap: Record<number, string>) {
+    const RAW_DIR = path.join(process.cwd(), 'data/raw');
 
     try {
-        const jsonData = JSON.parse(fs.readFileSync(exportPath, 'utf-8'));
-        for (const category in jsonData) {
-            const status = STATUS_MAP[category] || 'UNKNOWN';
-            jsonData[category].forEach((item: any) => {
-                const alId = getAniListId(item.al);
-                if (alId) userStatusMap[alId] = status;
-            });
-        }
-        console.log(`✅ Loaded ${Object.keys(userStatusMap).length} user status entries.`);
-    } catch (e) {
-        console.error('❌ Failed to read export.json. Proceeding without user sync.');
+        const data: any = await gqlClient.request(SCRAPE_QUERY, { page });
+        const mediaList = data.Page.media;
+
+        if (!mediaList || mediaList.length === 0) return { success: true, count: 0, hasNext: false };
+
+        // 1. Save Raw JSON to Disk
+        fs.writeFileSync(path.join(RAW_DIR, `page_${page}.json`), JSON.stringify(mediaList, null, 2));
+
+        // 2. Map to DB Schema
+        const animeItems = mediaList.map((m: any) => ({
+            id: m.id,
+            title_romaji: m.title.romaji,
+            title_english: m.title.english || m.title.romaji,
+            title_native: m.title.native,
+            description: m.description,
+            banner_image: m.bannerImage,
+            cover_image: m.coverImage.extraLarge || m.coverImage.large,
+            start_date: formatDate(m.startDate),
+            end_date: formatDate(m.endDate),
+            status: m.status,
+            episodes: m.episodes,
+            duration: m.duration,
+            genres: m.genres,
+            average_score: m.averageScore,
+            popularity: m.popularity,
+            favourites: m.favourites,
+            studios: m.studios.nodes.map((s: any) => s.name),
+            source: m.source,
+            mal_id: m.idMal,
+            anilist_url: m.siteUrl,
+            format: m.format,
+            season: m.season,
+            season_year: m.seasonYear,
+            is_adult: m.isAdult,
+            ustatus: userStatusMap[m.id] || null,
+            relations: m.relations?.edges?.map((e: any) => ({
+                id: e.node.id,
+                type: e.relationType,
+                title: e.node.title.english || e.node.title.romaji,
+                image: e.node.coverImage.medium,
+                status: e.node.status,
+                format: e.node.format,
+                season: e.node.season,
+                season_year: e.node.seasonYear
+            })) || [],
+            raw_data: m
+        }));
+
+        // 3. Upsert to Supabase
+        const { error } = await supabase.from('animes').upsert(animeItems, { onConflict: 'id' });
+        if (error) throw error;
+
+        return { success: true, count: animeItems.length, hasNext: data.Page.pageInfo.hasNextPage };
+    } catch (err: any) {
+        return { success: false, error: err.message, page };
+    }
+}
+
+async function scrape() {
+    const RAW_DIR = path.join(process.cwd(), 'data/raw');
+    if (!fs.existsSync(RAW_DIR)) fs.mkdirSync(RAW_DIR, { recursive: true });
+
+    // Load user list for matching
+    const exportPath = path.join(process.cwd(), 'export.json');
+    let userStatusMap: Record<number, string> = {};
+    if (fs.existsSync(exportPath)) {
+        try {
+            const jsonData = JSON.parse(fs.readFileSync(exportPath, 'utf-8'));
+            for (const cat in jsonData) {
+                const status = STATUS_MAP[cat] || 'UNKNOWN';
+                jsonData[cat].forEach((item: any) => {
+                    const id = getAniListId(item.al);
+                    if (id) userStatusMap[id] = status;
+                });
+            }
+        } catch (e) { }
     }
 
-    // 2. Clear DB
-    console.log('🧹 Clearing existing database records...');
-    await supabase.from('user_anime_lists').delete().neq('anime_id', 0);
-    await supabase.from('animes').delete().neq('id', 0);
-    console.log('✅ Database purged.');
+    // Resume logic
+    const cachedFiles = fs.readdirSync(RAW_DIR).filter(f => f.startsWith('page_') && f.endsWith('.json'));
+    let startPage = 1;
+    if (cachedFiles.length > 0) {
+        startPage = Math.max(...cachedFiles.map(f => parseInt(f.replace('page_', '').replace('.json', '')))) + 1;
+    }
 
-    console.log(`🚀 Starting Global Scrape: ${startYear} - ${endYear}`);
+    console.log(`🚀 BRUTE FORCE ARCHIVE STARTing at Page ${startPage}`);
+    console.log(`⚠️  Ignoring standard limit protocols as per directive.`);
 
-    for (let year = startYear; year <= endYear; year++) {
-        let hasNextPage = true;
-        let page = 1;
+    let currentPage = startPage;
+    let hasMore = true;
+    const CONCURRENCY = 10; // 10 parallel requests
 
-        console.log(`\n--- Processing Year: ${year} ---`);
+    while (hasMore) {
+        const batch = [];
+        for (let i = 0; i < CONCURRENCY; i++) {
+            batch.push(fetchPage(currentPage + i, userStatusMap));
+        }
 
-        while (hasNextPage) {
-            console.log(`  Fetching Page ${page}...`);
-            try {
-                const data: any = await gqlClient.request(SCRAPE_QUERY, { year, page });
-                const mediaList = data.Page.media;
+        console.log(`📡 Fetching pages ${currentPage} to ${currentPage + CONCURRENCY - 1}...`);
+        const results = await Promise.all(batch);
 
-                if (mediaList.length === 0) {
-                    hasNextPage = false;
-                    continue;
+        for (const res of results) {
+            if (!res.success) {
+                console.error(`  ❌ Error Page ${(res as any).page}: ${(res as any).error}`);
+                if ((res as any).error.includes('429')) {
+                    console.log(`  🕒 Rate limit hit. Cooling down 10s...`);
+                    await new Promise(r => setTimeout(r, 10000));
                 }
-
-                const animeItems = [];
-                const userListEntries = [];
-
-                for (const m of mediaList) {
-                    animeItems.push({
-                        id: m.id,
-                        title_romaji: m.title.romaji,
-                        title_english: m.title.english || m.title.romaji,
-                        title_native: m.title.native,
-                        description: m.description,
-                        banner_image: m.bannerImage,
-                        cover_image: m.coverImage.extraLarge || m.coverImage.large,
-                        start_date: formatDate(m.startDate),
-                        end_date: formatDate(m.endDate),
-                        status: m.status,
-                        episodes: m.episodes,
-                        duration: m.duration,
-                        genres: m.genres,
-                        average_score: m.averageScore,
-                        popularity: m.popularity,
-                        favourites: m.favourites,
-                        studios: m.studios.nodes.map((s: any) => s.name),
-                        source: m.source,
-                        mal_id: m.idMal,
-                        anilist_url: m.siteUrl,
-                        format: m.format,
-                        season: m.season,
-                        season_year: m.seasonYear,
-                        is_adult: m.isAdult,
-                        ustatus: userStatusMap[m.id] || null,
-                        relations: m.relations?.edges?.map((e: any) => ({
-                            id: e.node.id,
-                            type: e.relationType,
-                            title: e.node.title.english || e.node.title.romaji,
-                            image: e.node.coverImage.medium,
-                            status: e.node.status,
-                            format: e.node.format
-                        })) || []
-                    });
-
-                    // Check if this anime exists in user's export.json
-                    if (userStatusMap[m.id]) {
-                        userListEntries.push({
-                            anime_id: m.id,
-                            status: userStatusMap[m.id]
-                        });
-                    }
-                }
-
-                // Upsert to DB
-                const { error: animeError } = await supabase.from('animes').upsert(animeItems);
-                if (animeError) console.error(`  ❌ Anime Error on page ${page}:`, animeError.message);
-
-                if (userListEntries.length > 0) {
-                    const { error: userError } = await supabase.from('user_anime_lists').upsert(userListEntries);
-                    if (userError) console.error(`  ❌ User Sync Error on page ${page}:`, userError.message);
-                    else console.log(`  🔗 Auto-linked ${userListEntries.length} items to your list`);
-                }
-
-                console.log(`  ✅ Synced ${animeItems.length} entries`);
-
-                hasNextPage = data.Page.pageInfo.hasNextPage;
-                page++;
-
-                await new Promise(resolve => setTimeout(resolve, 800));
-
-            } catch (err: any) {
-                console.error(`  ❌ Fatal Error on page ${page}:`, err.message);
-                await new Promise(resolve => setTimeout(resolve, 5000));
-                if (err.message.includes('429')) continue;
-                break;
+            } else {
+                if (!res.hasNext) hasMore = false;
+                console.log(`  ✅ Page synced (${res.count} items)`);
             }
         }
+
+        currentPage += CONCURRENCY;
+        // Small delay to allow DB to breathe
+        await new Promise(r => setTimeout(r, 200));
     }
 
-    console.log('\n✨ Global Scrape & User Sync Finished.');
+    console.log('\n💎 BRUTE FORCE ARCHIVE COMPLETE.');
 }
 
 scrape();

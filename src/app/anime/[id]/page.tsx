@@ -30,14 +30,7 @@ export default async function AnimeDetail({ params }: PageProps) {
 
     if (!anime) notFound();
 
-    // Fetch User Status
-    const { data: userEntry } = await supabase
-        .from('user_anime_lists')
-        .select('status')
-        .eq('anime_id', animeId)
-        .single();
-
-    const userStatus = userEntry?.status;
+    const userStatus = anime.ustatus as UserAnimeStatus;
 
     return (
         <div className="min-h-screen">
@@ -74,22 +67,40 @@ export default async function AnimeDetail({ params }: PageProps) {
 
                     {/* RIGHT COLUMN: Info */}
                     <div className="pt-2 md:pt-12">
-                        <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{anime.title_english || anime.title_romaji}</h1>
-                        {anime.title_native && <h2 className="text-xl text-text-muted mb-6 font-serif">{anime.title_native}</h2>}
+                        <div className="flex flex-col md:flex-row md:items-end gap-2 md:gap-4 mb-2">
+                            <h1 className="text-4xl md:text-5xl font-black text-white tracking-tighter">{anime.title_english || anime.title_romaji}</h1>
+                            {anime.season && (
+                                <span className="px-3 py-1 bg-primary/10 border border-primary/20 rounded-full text-[10px] font-black uppercase text-primary tracking-widest mb-1.5 self-start md:self-auto">
+                                    {anime.season} {anime.season_year}
+                                </span>
+                            )}
+                        </div>
+                        {anime.title_native && <h2 className="text-xl text-text-muted mb-6 font-medium italic opacity-70">{anime.title_native}</h2>}
 
                         <div className="flex flex-wrap gap-2 mb-8">
+                            {anime.format && (
+                                <span className="px-3 py-1 bg-surface border border-border rounded-full text-xs font-bold text-white uppercase">
+                                    {anime.format}
+                                </span>
+                            )}
                             {anime.genres?.map((g: string) => (
-                                <span key={g} className="px-3 py-1 bg-surface border border-border rounded-full text-xs font-medium text-text-main hover:bg-surface-hover hover:border-primary/50 transition-colors cursor-pointer">
+                                <span key={g} className="px-3 py-1 bg-surface border border-border rounded-full text-xs font-semibold text-text-muted hover:text-white hover:border-primary/50 transition-colors cursor-pointer">
                                     {g}
                                 </span>
                             ))}
                         </div>
 
-                        <div className="bg-surface/30 border border-border rounded-xl p-6 md:p-8 mb-8 backdrop-blur-sm">
-                            <h3 className="text-sm font-bold text-white mb-4 uppercase tracking-wide">Synopsis</h3>
+                        <div className="bg-surface/30 border border-border rounded-3xl p-6 md:p-8 mb-8 backdrop-blur-md relative overflow-hidden group">
+                            <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                                <FileTextIcon />
+                            </div>
+                            <h3 className="text-[10px] font-black text-text-muted mb-4 uppercase tracking-[0.2em] flex items-center gap-2">
+                                <div className="h-1.5 w-1.5 rounded-full bg-primary" />
+                                Narrative Synopsis
+                            </h3>
                             <div
-                                className="text-text-muted leading-relaxed space-y-4"
-                                dangerouslySetInnerHTML={{ __html: anime.description || 'No description.' }}
+                                className="text-text-main leading-relaxed space-y-4 text-sm"
+                                dangerouslySetInnerHTML={{ __html: anime.description || 'Information pending transmission...' }}
                             />
                         </div>
 
@@ -124,3 +135,10 @@ function DetailItem({ label, value }: { label: string, value: any }) {
         </div>
     )
 }
+
+function FileTextIcon() {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" /><polyline points="14 2 14 8 20 8" /><line x1="16" x2="8" y1="13" y2="13" /><line x1="16" x2="8" y1="17" y2="17" /><line x1="10" x2="8" y1="9" y2="9" /></svg>
+    )
+}
+

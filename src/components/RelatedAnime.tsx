@@ -8,6 +8,8 @@ interface RelatedAnimeItem {
     image: string;
     status: string;
     format: string;
+    season?: string;
+    season_year?: number;
 }
 
 export default function RelatedAnime({ relations }: { relations: RelatedAnimeItem[] }) {
@@ -51,6 +53,7 @@ export default function RelatedAnime({ relations }: { relations: RelatedAnimeIte
                             </h4>
                             <div className="text-[9px] font-bold text-text-muted uppercase tracking-tight">
                                 {rel.format} • {rel.status.replace('_', ' ')}
+                                {rel.season && ` • ${rel.season} ${rel.season_year}`}
                             </div>
                         </div>
                     </Link>
