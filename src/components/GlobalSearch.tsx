@@ -107,47 +107,49 @@ export default function GlobalSearch({ initialUserIds }: { initialUserIds: Set<n
     }, [page, fetchResults]);
 
     return (
-        <div className="space-y-8">
-            <section className="bg-surface border border-border rounded-xl p-6 space-y-6">
-                <div className="flex flex-col md:flex-row gap-4">
-                    <div className="flex-1 space-y-2">
-                        <label className="text-[10px] font-black uppercase text-text-muted tracking-widest pl-1">Global Database Scan</label>
+        <div className="space-y-12">
+            <section className="glass-card rounded-3xl p-8 space-y-8 animate-fade-in shadow-2xl relative overflow-hidden">
+                <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-20" />
+
+                <div className="flex flex-col lg:flex-row gap-6">
+                    <div className="flex-1 space-y-3">
+                        <label className="text-[10px] font-black uppercase text-primary tracking-[0.2em] pl-1 glow-text">Neural Scan Target</label>
                         <input
                             type="text"
-                            placeholder="Enter anime title..."
+                            placeholder="Enter archive designation..."
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
-                            className="w-full bg-background border border-border rounded-lg px-4 py-3 text-white focus:ring-2 focus:ring-primary outline-none transition-all"
+                            className="w-full bg-background/50 border border-white/5 rounded-xl px-5 py-4 text-white focus:ring-2 focus:ring-primary/50 outline-none transition-all placeholder:text-text-muted/30 font-bold"
                         />
                     </div>
-                    <div className="w-full md:w-48 space-y-2">
-                        <label className="text-[10px] font-black uppercase text-text-muted tracking-widest pl-1">Sort Mode</label>
+                    <div className="w-full lg:w-64 space-y-3">
+                        <label className="text-[10px] font-black uppercase text-text-muted tracking-[0.2em] pl-1">Sort Metric</label>
                         <select
                             value={sort}
                             onChange={(e) => setSort(e.target.value)}
-                            className="w-full bg-background border border-border rounded-lg px-4 py-3 text-white appearance-none"
+                            className="w-full bg-background/50 border border-white/5 rounded-xl px-5 py-4 text-white appearance-none font-bold hover:border-primary/50 transition-colors"
                         >
-                            <option value="pop_desc">Popularity</option>
-                            <option value="score_desc">Rating</option>
-                            <option value="title_asc">Alphabetical</option>
-                            <option value="year_desc">Latest</option>
+                            <option value="pop_desc">Popularity Magnitude</option>
+                            <option value="score_desc">Rating Accuracy</option>
+                            <option value="title_asc">Alphabetical Order</option>
+                            <option value="year_desc">Chronological Recency</option>
                         </select>
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <FilterSelect label="Genre" value={genre} onChange={setGenre} options={['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mecha', 'Music', 'Mystery', 'Psychological', 'Romance', 'Sci-Fi', 'Slice of Life', 'Sports', 'Supernatural', 'Thriller']} />
-                    <FilterSelect label="Format" value={format} onChange={setFormat} options={['TV', 'MOVIE', 'OVA', 'ONA', 'SPECIAL', 'MUSIC']} />
-                    <FilterSelect label="Year" value={year} onChange={setYear} options={Array.from({ length: 50 }, (_, i) => (2027 - i).toString())} />
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                    <FilterSelect label="Genre Vector" value={genre} onChange={setGenre} options={['Action', 'Adventure', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Mecha', 'Music', 'Mystery', 'Psychological', 'Romance', 'Sci-Fi', 'Slice of Life', 'Sports', 'Supernatural', 'Thriller']} />
+                    <FilterSelect label="Format Class" value={format} onChange={setFormat} options={['TV', 'MOVIE', 'OVA', 'ONA', 'SPECIAL', 'MUSIC']} />
+                    <FilterSelect label="Launch Era" value={year} onChange={setYear} options={Array.from({ length: 91 }, (_, i) => (2030 - i).toString())} />
                     <div className="flex items-end pb-3">
-                        <label className="flex items-center gap-2 cursor-pointer group">
+                        <label className="flex items-center gap-3 cursor-pointer group px-4 py-3 rounded-xl bg-background/30 border border-white/5 hover:border-error/30 transition-all flex-1">
                             <input
                                 type="checkbox"
                                 checked={includeAdult}
                                 onChange={(e) => setIncludeAdult(e.target.checked)}
-                                className="w-5 h-5 rounded border-border bg-background text-primary focus:ring-primary/20"
+                                className="w-5 h-5 rounded border-white/10 bg-background text-error focus:ring-error/20 transition-all"
                             />
-                            <span className="text-xs font-bold text-text-muted group-hover:text-text-main transition-colors">Include Adult</span>
+                            <span className="text-[10px] font-black text-text-muted uppercase tracking-widest group-hover:text-error transition-colors">Explicit Content</span>
                         </label>
                     </div>
                 </div>
@@ -155,12 +157,15 @@ export default function GlobalSearch({ initialUserIds }: { initialUserIds: Set<n
 
             <div className="dense-grid">
                 {results.map((anime, idx) => {
+                    const staggerClass = `stagger-${(idx % 5) + 1}`;
                     const card = (
-                        <AnimeCard
-                            anime={anime}
-                            status={anime.ustatus as UserAnimeStatus}
-                            showStatus={true}
-                        />
+                        <div className={`animate-fade-in ${staggerClass}`}>
+                            <AnimeCard
+                                anime={anime}
+                                status={anime.ustatus as UserAnimeStatus}
+                                showStatus={true}
+                            />
+                        </div>
                     );
 
                     if (results.length === idx + 1) {

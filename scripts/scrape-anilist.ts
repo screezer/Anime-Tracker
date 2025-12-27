@@ -101,44 +101,53 @@ async function fetchPage(page: number, userStatusMap: Record<number, string>) {
         fs.writeFileSync(path.join(RAW_DIR, `page_${page}.json`), JSON.stringify(mediaList, null, 2));
 
         // 2. Map to DB Schema
-        const animeItems = mediaList.map((m: any) => ({
-            id: m.id,
-            title_romaji: m.title.romaji,
-            title_english: m.title.english || m.title.romaji,
-            title_native: m.title.native,
-            description: m.description,
-            banner_image: m.bannerImage,
-            cover_image: m.coverImage.extraLarge || m.coverImage.large,
-            start_date: formatDate(m.startDate),
-            end_date: formatDate(m.endDate),
-            status: m.status,
-            episodes: m.episodes,
-            duration: m.duration,
-            genres: m.genres,
-            average_score: m.averageScore,
-            popularity: m.popularity,
-            favourites: m.favourites,
-            studios: m.studios.nodes.map((s: any) => s.name),
-            source: m.source,
-            mal_id: m.idMal,
-            anilist_url: m.siteUrl,
-            format: m.format,
-            season: m.season,
-            season_year: m.seasonYear,
-            is_adult: m.isAdult,
-            ustatus: userStatusMap[m.id] || null,
-            relations: m.relations?.edges?.map((e: any) => ({
-                id: e.node.id,
-                type: e.relationType,
-                title: e.node.title.english || e.node.title.romaji,
-                image: e.node.coverImage.medium,
-                status: e.node.status,
-                format: e.node.format,
-                season: e.node.season,
-                season_year: e.node.seasonYear
-            })) || [],
-            raw_data: m
-        }));
+        const animeItems = mediaList.map((m: any) => {
+            const item: any = {
+                id: m.id,
+                title_romaji: m.title.romaji,
+                title_english: m.title.english || m.title.romaji,
+                title_native: m.title.native,
+                description: m.description,
+                banner_image: m.bannerImage,
+                cover_image: m.coverImage.extraLarge || m.coverImage.large,
+                start_date: formatDate(m.startDate),
+                end_date: formatDate(m.endDate),
+                status: m.status,
+                episodes: m.episodes,
+                duration: m.duration,
+                genres: m.genres,
+                average_score: m.averageScore,
+                popularity: m.popularity,
+                favourites: m.favourites,
+                studios: m.studios.nodes.map((s: any) => s.name),
+                source: m.source,
+                mal_id: m.idMal,
+                anilist_url: m.siteUrl,
+                format: m.format,
+                season: m.season,
+                season_year: m.seasonYear,
+                is_adult: m.isAdult,
+                relations: m.relations?.edges?.map((e: any) => ({
+                    id: e.node.id,
+                    type: e.relationType,
+                    title: e.node.title.english || e.node.title.romaji,
+                    image: e.node.coverImage.medium,
+                    status: e.node.status,
+                    format: e.node.format,
+                    season: e.node.season,
+                    season_year: e.node.seasonYear
+                })) || [],
+                raw_data: m
+            };
+
+            // ONLY update ustatus if present in export.json
+            // This protects manually added items from being wiped by the global scraper
+            if (userStatusMap[m.id]) {
+                item.ustatus = userStatusMap[m.id];
+            }
+
+            return item;
+        });
 
         // 3. Upsert to Supabase
         const { error } = await supabase.from('animes').upsert(animeItems, { onConflict: 'id' });

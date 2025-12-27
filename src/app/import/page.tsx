@@ -53,10 +53,15 @@ export default function ImportPage() {
     };
 
     return (
-        <main className="min-h-screen p-6 md:p-12 max-w-4xl mx-auto space-y-12">
-            <header className="space-y-2">
-                <h1 className="text-4xl font-extrabold text-white tracking-tighter">Mission Control</h1>
-                <p className="text-text-muted text-lg">Initialize a global uplink to synchronize your archives.</p>
+        <main className="min-h-screen p-6 md:p-12 max-w-5xl mx-auto space-y-16 animate-fade-in">
+            <header className="space-y-3">
+                <div className="flex items-center gap-3">
+                    <div className="h-10 w-10 rounded-xl bg-primary flex items-center justify-center text-white shadow-glow animate-float">
+                        <UploadIcon />
+                    </div>
+                    <h1 className="text-5xl font-black text-white tracking-tighter glow-text">Mission Control</h1>
+                </div>
+                <p className="text-text-muted text-lg font-medium">Initialize a global uplink to synchronize your archives.</p>
             </header>
 
             <section className="relative group">
@@ -66,22 +71,23 @@ export default function ImportPage() {
                     onDragLeave={() => setIsDragging(false)}
                     onDrop={onDrop}
                     className={`
-                        relative h-96 rounded-3xl border-2 border-dashed transition-all duration-500 flex flex-col items-center justify-center gap-6 overflow-hidden
-                        ${isDragging ? 'border-primary bg-primary/5 scale-[1.02]' : 'border-border bg-surface hover:border-primary/50'}
+                        relative h-[450px] rounded-[2.5rem] border-2 border-dashed transition-all duration-700 flex flex-col items-center justify-center gap-8 overflow-hidden
+                        ${isDragging ? 'border-primary bg-primary/10 scale-[1.02] glow-primary' : 'border-white/5 glass-card hover:border-primary/30'}
                         ${status !== 'IDLE' && 'pointer-events-none'}
                     `}
                 >
-                    {/* Background Grid Effect */}
-                    <div className="absolute inset-0 opacity-[0.03] pointer-events-none bg-[radial-gradient(#3db4f2_1px,transparent_1px)] [background-size:20px_20px]" />
+                    {/* Background Grid Intelligence Effect */}
+                    <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[radial-gradient(var(--primary)_1.5px,transparent_1.5px)] [background-size:32px_32px]" />
+                    <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50" />
 
                     {status === 'IDLE' && (
                         <>
-                            <div className="h-20 w-20 rounded-2xl bg-primary/10 flex items-center justify-center text-primary animate-bounce">
+                            <div className="h-24 w-24 rounded-[2rem] bg-primary/10 flex items-center justify-center text-primary animate-float border border-primary/20 shadow-glow">
                                 <UploadIcon />
                             </div>
-                            <div className="text-center space-y-2">
-                                <p className="text-xl font-bold text-white">Drop `export.json` here</p>
-                                <p className="text-text-muted text-sm px-10">Our neural engine will scan and link your entries to the AniList universe.</p>
+                            <div className="text-center space-y-3 px-10 relative z-10">
+                                <p className="text-3xl font-black text-white tracking-tighter">Awaiting `export.json`</p>
+                                <p className="text-text-muted font-bold max-w-md mx-auto leading-relaxed">Our neural engine will scan and link your entries to the AniList universe with surgical precision.</p>
                             </div>
                             <input
                                 type="file"
@@ -93,50 +99,53 @@ export default function ImportPage() {
                     )}
 
                     {(status === 'READING' || status === 'SYNCING') && (
-                        <div className="flex flex-col items-center gap-8 text-center">
-                            <div className="relative h-24 w-24">
-                                <div className="absolute inset-0 border-4 border-primary border-t-transparent rounded-full animate-spin" />
-                                <div className="absolute inset-4 border-4 border-primary/30 border-b-transparent rounded-full animate-spin-slow" />
+                        <div className="flex flex-col items-center gap-10 text-center relative z-10">
+                            <div className="relative h-32 w-32">
+                                <div className="absolute inset-0 border-[6px] border-primary border-t-transparent rounded-full animate-spin shadow-glow" />
+                                <div className="absolute inset-6 border-[6px] border-primary/20 border-b-transparent rounded-full animate-spin-slow" />
+                                <div className="absolute inset-0 flex items-center justify-center">
+                                    <div className="h-4 w-4 rounded-full bg-primary animate-pulse shadow-glow" />
+                                </div>
                             </div>
-                            <div className="space-y-2">
-                                <h3 className="text-2xl font-black text-white uppercase tracking-widest animate-pulse">
-                                    {status === 'READING' ? 'Decrypting...' : 'Establishing Uplink...'}
+                            <div className="space-y-3">
+                                <h3 className="text-3xl font-black text-white uppercase tracking-[0.3em] animate-pulse glow-text">
+                                    {status === 'READING' ? 'Decrypting' : 'Establishing Uplink'}
                                 </h3>
-                                <p className="text-text-muted font-mono text-xs">Scanning ID-blocks and Name-indices</p>
+                                <p className="text-text-muted font-black text-xs uppercase tracking-[0.2em] opacity-40">Scanning ID-blocks and Name-indices</p>
                             </div>
                         </div>
                     )}
 
                     {status === 'DONE' && (
-                        <div className="flex flex-col items-center gap-6 text-center animate-fade-in">
-                            <div className="h-20 w-20 rounded-full bg-success/20 flex items-center justify-center text-success border border-success/30 shadow-[0_0_20px_rgba(22,163,74,0.3)]">
+                        <div className="flex flex-col items-center gap-10 text-center animate-fade-in relative z-10">
+                            <div className="h-28 w-28 rounded-full bg-success/20 flex items-center justify-center text-success border-2 border-success/30 shadow-[0_0_40px_rgba(0,250,154,0.3)] animate-float">
                                 <CheckIcon />
                             </div>
-                            <div className="space-y-1">
-                                <h3 className="text-2xl font-bold text-white">Synchronization Complete</h3>
-                                <p className="text-text-muted">Linked {stats?.count} units to your neural engine.</p>
+                            <div className="space-y-3">
+                                <h3 className="text-4xl font-black text-white tracking-tighter">Uplink Successful</h3>
+                                <p className="text-text-muted text-lg font-bold">Linked <span className="text-success glow-text">{stats?.count}</span> units to your neural engine.</p>
                             </div>
-                            <div className="flex gap-4 mt-4">
-                                <Link href="/library" className="px-6 py-2 bg-primary text-white rounded-xl font-bold hover:bg-primary-hover transition-colors">
-                                    View Library
+                            <div className="flex gap-6 mt-4">
+                                <Link href="/library" className="px-10 py-4 bg-primary text-white rounded-2xl font-black uppercase tracking-widest hover:glow-primary transition-all duration-300 transform hover:scale-105">
+                                    Access Library
                                 </Link>
-                                <button onClick={() => setStatus('IDLE')} className="px-6 py-2 bg-surface border border-border text-white rounded-xl font-bold hover:bg-surface-hover transition-colors">
-                                    Sync Another
+                                <button onClick={() => setStatus('IDLE')} className="px-10 py-4 glass-card text-white rounded-2xl font-black uppercase tracking-widest hover:bg-white/5 transition-all">
+                                    New Uplink
                                 </button>
                             </div>
                         </div>
                     )}
 
                     {status === 'ERROR' && (
-                        <div className="flex flex-col items-center gap-6 text-center animate-fade-in">
-                            <div className="h-20 w-20 rounded-full bg-error/20 flex items-center justify-center text-error border border-error/30">
+                        <div className="flex flex-col items-center gap-10 text-center animate-fade-in relative z-10">
+                            <div className="h-28 w-28 rounded-full bg-error/20 flex items-center justify-center text-error border-2 border-error/30 shadow-[0_0_40px_rgba(232,93,117,0.3)]">
                                 <XIcon />
                             </div>
-                            <div className="space-y-1">
-                                <h3 className="text-xl font-bold text-white">Uplink Interrupted</h3>
-                                <p className="text-error/80 font-medium">{error}</p>
+                            <div className="space-y-2">
+                                <h3 className="text-3xl font-black text-white uppercase tracking-widest">Uplink Denied</h3>
+                                <p className="text-error font-bold text-lg">{error}</p>
                             </div>
-                            <button onClick={() => setStatus('IDLE')} className="mt-4 px-6 py-2 bg-surface border border-border text-white rounded-xl font-bold hover:bg-surface-hover transition-colors">
+                            <button onClick={() => setStatus('IDLE')} className="mt-4 px-10 py-4 bg-surface border border-white/10 text-white rounded-2xl font-black uppercase tracking-widest hover:border-error/50 transition-all">
                                 Retry Connection
                             </button>
                         </div>
@@ -145,15 +154,15 @@ export default function ImportPage() {
             </section>
 
             {/* Transmission Logs Preview */}
-            <section className="bg-surface border border-border rounded-3xl p-8 space-y-6">
+            <section className="glass-card rounded-[2rem] p-10 space-y-8 shadow-2xl border-white/5">
                 <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-black text-white uppercase tracking-[0.2em]">Transmission Status</h3>
-                    <Link href="/logs" className="text-[10px] font-bold text-primary hover:underline uppercase tracking-widest">View Detailed Logs</Link>
+                    <h3 className="text-xs font-black text-white uppercase tracking-[0.4em]">Telemetry Status</h3>
+                    <Link href="/logs" className="text-[10px] font-black text-primary hover:glow-text uppercase tracking-widest transition-all">Deep Logs</Link>
                 </div>
-                <div className="space-y-3 font-mono text-[11px]">
-                    <LogLine label="ENCRYPTION" value="AES-256" />
-                    <LogLine label="PROTOCOL" value="JSON_UPLOAD_V2" />
-                    <LogLine label="STATUS" value={status === 'DONE' ? 'READY' : status === 'IDLE' ? 'WAITING' : 'BUSY'} color={status === 'DONE' ? 'text-success' : 'text-warning'} />
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <LogLine label="ENCRYPTION" value="AES-256-INDUSTRIAL" />
+                    <LogLine label="PROTOCOL" value="JSON_UPLINK_V3" />
+                    <LogLine label="STATUS" value={status === 'DONE' ? 'READY_IDLE' : status === 'IDLE' ? 'LISTENING' : 'TRANSMITTING'} color={status === 'DONE' ? 'text-success' : 'text-primary'} />
                 </div>
             </section>
         </main>

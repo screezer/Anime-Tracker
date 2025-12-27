@@ -23,45 +23,42 @@ export default function AnimeCard({ anime, status, showStatus = true }: AnimeCar
     return (
         <Link
             href={`/anime/${anime.id}`}
-            className="group block space-y-3 animate-fade-in"
+            className="group block space-y-3 animate-fade-in hover-bloom h-full"
         >
             {/* Image Container */}
-            <div className="relative aspect-[2/3] w-full rounded-md overflow-hidden bg-surface shadow-md transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_10px_20px_rgba(0,0,0,0.3)]">
+            <div className="relative aspect-[2/3] w-full rounded-xl overflow-hidden glass-card shadow-2xl border border-white/5 transition-all duration-500 group-hover:glow-primary group-hover:border-primary/30">
                 {anime.cover_image ? (
                     <Image
                         src={anime.cover_image}
                         alt={title}
                         fill
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="object-cover transition-transform duration-700 group-hover:scale-110 group-hover:rotate-1"
                         sizes="(max-width: 768px) 50vw, 20vw"
                     />
                 ) : (
-                    <div className="w-full h-full flex items-center justify-center text-text-muted font-mono text-xs">
-                        NO_IMAGE
+                    <div className="w-full h-full flex items-center justify-center bg-surface-hover text-text-muted font-mono text-[10px] tracking-tighter uppercase">
+                        Archive_Pending
                     </div>
                 )}
 
-                {/* Overlays */}
-                <div className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col gap-2">
+                {/* Industrial Overlays */}
+                <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col gap-2 translate-y-2 group-hover:translate-y-0">
                     <div className="flex items-center justify-between">
-                        <span className="text-[10px] font-bold text-white/90">
+                        <span className="text-[10px] font-black text-primary uppercase tracking-widest">
                             {anime.format || 'TV'}
                         </span>
                         {anime.average_score && (
-                            <span className="text-[10px] font-bold text-[#3db4f2]">
+                            <span className="text-[10px] font-black text-white px-1.5 py-0.5 bg-primary rounded shadow-glow">
                                 {anime.average_score}%
                             </span>
-                        )}
-                        {(anime as any).is_adult && (
-                            <span className="text-[9px] font-black text-white bg-error px-1 rounded">18+</span>
                         )}
                     </div>
                 </div>
 
-                {/* Top Badge (Always visible if showStatus) */}
+                {/* Mission Status Badge */}
                 {showStatus && status && status !== 'UNKNOWN' && (
-                    <div className="absolute top-2 right-2">
-                        <div className={`text-[9px] font-black px-1.5 py-0.5 rounded shadow-lg backdrop-blur-md uppercase tracking-wider border ${statusColors[status]}`}>
+                    <div className="absolute top-3 right-3 animate-float">
+                        <div className={`text-[9px] font-black px-2 py-1 rounded-md shadow-2xl backdrop-blur-xl uppercase tracking-[0.1em] border ${statusColors[status]}`}>
                             {status.replace('_', ' ')}
                         </div>
                     </div>
@@ -69,8 +66,8 @@ export default function AnimeCard({ anime, status, showStatus = true }: AnimeCar
             </div>
 
             {/* Title Section */}
-            <div className="space-y-1 px-1">
-                <h3 className="text-sm font-bold text-text-main line-clamp-2 leading-snug group-hover:text-primary transition-colors">
+            <div className="space-y-1.5 px-1 pb-2">
+                <h3 className="text-sm font-bold text-text-main line-clamp-2 leading-tight group-hover:text-primary transition-colors tracking-tight">
                     {title}
                 </h3>
             </div>

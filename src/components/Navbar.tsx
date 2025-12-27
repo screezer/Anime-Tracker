@@ -6,35 +6,34 @@ import { usePathname } from 'next/navigation';
 export default function Navbar() {
     const pathname = usePathname();
 
-    const isActive = (path: string) => pathname === path ? 'text-white bg-surface' : 'text-text-muted hover:text-white hover:bg-surface-hover';
+    const isActive = (path: string) => pathname === path;
 
     return (
-        <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/90 backdrop-blur-md h-[var(--header-height)]">
+        <nav className="sticky top-0 z-50 w-full border-b border-white/5 bg-background/80 backdrop-blur-2xl h-[var(--header-height)] shadow-2xl">
             <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
-                <div className="flex items-center gap-8">
-                    <Link href="/" className="flex items-center gap-2 group">
-                        <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg group-hover:bg-primary-hover transition-colors">
+                <div className="flex items-center gap-10">
+                    <Link href="/" className="flex items-center gap-2.5 group">
+                        <div className="h-9 w-9 rounded-xl bg-primary flex items-center justify-center text-white font-black text-xl group-hover:glow-primary transition-all duration-300 transform group-hover:scale-110">
                             AT
                         </div>
-                        <span className="text-xl font-bold tracking-tight text-white">
+                        <span className="text-xl font-black tracking-tighter text-white group-hover:text-primary transition-colors">
                             AnimeTarget
                         </span>
                     </Link>
 
-                    <div className="hidden md:flex items-center gap-1">
-                        <NavLink href="/library" label="Library" icon={<LayoutGridIcon />} activeClass={isActive('/library')} />
-                        <NavLink href="/search" label="Search" icon={<SearchIcon />} activeClass={isActive('/search')} />
-                        <NavLink href="/dashboard" label="Dashboard" icon={<BarChartIcon />} activeClass={isActive('/dashboard')} />
-                        <NavLink href="/import" label="Import" icon={<UploadIcon />} activeClass={isActive('/import')} />
-                        <NavLink href="/logs" label="Logs" icon={<FileTextIcon />} activeClass={isActive('/logs')} />
-                        <NavLink href="/settings" label="Settings" icon={<SettingsIcon />} activeClass={isActive('/settings')} />
+                    <div className="hidden md:flex items-center gap-1 bg-surface/50 p-1 rounded-xl border border-white/5">
+                        <NavLink href="/library" label="Library" icon={<LayoutGridIcon />} active={isActive('/library')} />
+                        <NavLink href="/search" label="Search" icon={<SearchIcon />} active={isActive('/search')} />
+                        <NavLink href="/dashboard" label="Dashboard" icon={<BarChartIcon />} active={isActive('/dashboard')} />
+                        <NavLink href="/import" label="Import" icon={<UploadIcon />} active={isActive('/import')} />
+                        <NavLink href="/logs" label="Logs" icon={<FileTextIcon />} active={isActive('/logs')} />
                     </div>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface border border-border text-xs font-mono text-text-muted">
-                        <span className="w-2 h-2 rounded-full bg-success animate-pulse" />
-                        System Online
+                    <div className="flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-primary/5 border border-primary/20 text-[10px] font-black tracking-[0.2em] text-primary glow-text uppercase animate-pulse">
+                        <span className="w-2 h-2 rounded-full bg-primary shadow-[0_0_10px_var(--primary-glow)]" />
+                        Millennium Uplink
                     </div>
                 </div>
             </div>
@@ -42,10 +41,16 @@ export default function Navbar() {
     );
 }
 
-function NavLink({ href, label, icon, activeClass }: { href: string, label: string, icon: React.ReactNode, activeClass: string }) {
+function NavLink({ href, label, icon, active }: { href: string, label: string, icon: React.ReactNode, active: boolean }) {
     return (
-        <Link href={href} className={`flex items-center gap-2 px-4 py-2 rounded-md text-sm font-medium transition-all ${activeClass}`}>
-            {icon}
+        <Link
+            href={href}
+            className={`
+                flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-300
+                ${active ? 'text-white bg-primary shadow-lg glow-primary' : 'text-text-muted hover:text-white hover:bg-white/5'}
+            `}
+        >
+            <span className={active ? 'scale-110' : 'opacity-70'}>{icon}</span>
             {label}
         </Link>
     )
